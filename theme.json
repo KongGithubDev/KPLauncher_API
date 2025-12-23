@@ -2,7 +2,7 @@
   "themeColor": "#D42426",
   "backgroundOpacity": 0.6,
   
-  "overlayUrl": "http://168.222.20.228/URCityLauncher_API/effects/snow.html",
+  "overlayUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/snow.html",
   "overlayOpacity": 0.9,
 
   "customStyles": {
