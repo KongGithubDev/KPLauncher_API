@@ -1,6 +1,6 @@
 {
   "launcherVer": 4,
-  "launcherName": "URCity Launcher",
+  "launcherName": "Legend Launcher",
   "registryPath": "HKCU\\Software\\SAMP",
   "themeColor": "#ffffff",
   "launcherUrl": "http://samp-legend.net/legendlauncher-api/launcher.exe",
@@ -13,24 +13,21 @@
     { "language": "en", "displayName": "English", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/en.json" }
   ],
   "discord": {
-    "clientId": "1438477239355314259",
-	  
+    "clientId": "1450865497913561171",
     "details": "Main Menu",
     "state": "Legend Launcher",
-    "largeImageKey": "main",
+    "largeImageKey": "logo",
     "largeImageText": "Legend Server",
-    
+    "smallImageKey": "kongproject",
+    "smallImageText": "KongProject",
     "detailsPlaying": "Playing on {gameName}",
     "statePlaying": "Character: {playerName}",
     "largeImageTextPlaying": "In Game",
-
     "detailsDownloading": "Updating {gameName}",
     "stateDownloading": "Downloading files...",
     "largeImageTextDownloading": "Patching...",
-
     "detailsMenus": "In the menus",
     "stateMenus": "Launcher Main Screen",
-    
     "buttons": [
       { "label": "Download", "url": "http://samp-legend.net/" },
       { "label": "Discord", "url": "https://discord.gg/x594Tyhc7h" }
@@ -39,7 +36,7 @@
   "games": [
 	    {
 	      "name": "Legend Of Roleplay",
-	      "themeColor": "#ffdd00",
+	      "themeColor": "#d1001f",
 	      "startCmd": "samp.exe ip.samp-legend.net:7777",
 	      "patchDataUrl": "http://samp-legend.net/legendlauncher-api/data.json",
 	
