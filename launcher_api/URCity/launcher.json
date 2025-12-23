@@ -14,23 +14,20 @@
   ],
   "discord": {
     "clientId": "1438477239355314259",
-	  
     "details": "Main Menu",
     "state": "URCity Launcher",
     "largeImageKey": "main",
     "largeImageText": "URCity Server",
-    
+    "smallImageKey": "kongproject",
+    "smallImageText": "KongProject",
     "detailsPlaying": "Playing on {gameName}",
     "statePlaying": "Character: {playerName}",
     "largeImageTextPlaying": "In Game",
-
     "detailsDownloading": "Updating {gameName}",
     "stateDownloading": "Downloading files...",
     "largeImageTextDownloading": "Patching...",
-
     "detailsMenus": "In the menus",
     "stateMenus": "Launcher Main Screen",
-    
     "buttons": [
       { "label": "Discord", "url": "https://discord.gg/jrAfUwpZzQ" }
     ]
