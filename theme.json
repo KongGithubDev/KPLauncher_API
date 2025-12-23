@@ -1,0 +1,15 @@
+{
+  "themeColor": "#D42426",
+  "backgroundOpacity": 0.6,
+  
+  "overlayUrl": "http://168.222.20.228/URCityLauncher_API/effects/snow.html",
+  "overlayOpacity": 0.9,
+
+  "customStyles": {
+    "--bg-primary": "#120101",
+    "--bg-secondary": "#1a0202",
+    "--theme-accent": "#D42426",
+    "--theme-accent-glow": "rgba(212, 36, 38, 0.4)",
+    "--accent-gold": "#FFD700"
+  }
+}
