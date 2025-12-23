@@ -1,32 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @keyframes fall {
-            0% { transform: translateY(-10vh) rotate(0deg); }
-            100% { transform: translateY(110vh) rotate(360deg); }
-        }
-        .snow {
-            position: absolute;
-            top: -10%;
-            animation: fall linear infinite;
-            pointer-events: none;
-        }
-    </style>
+<meta charset="UTF-8" />
+<title>Overlay Particle Effect</title>
+
+<style>
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(128,128,128,0.8), white);
+  overflow: hidden;
+}
+
+/* Overlay container */
+.overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Particle */
+.b {
+  position: absolute;
+  top: -50px;
+  border-radius: 50%;
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fall {
+  0%   { transform: scale(0); top: -50px; }
+  5%   { transform: scale(1); }
+  100% { transform: scale(0); top: 110%; }
+}
+</style>
 </head>
-<body class="bg-transparent overflow-hidden w-screen h-screen">
-    <script>
-        for (let i = 0; i < 50; i++) {
-            const snow = document.createElement('div');
-            snow.className = 'snow text-white opacity-70';
-            snow.innerHTML = ['❄', '❅', '❆'][Math.floor(Math.random() * 3)];
-            snow.style.left = Math.random() * 100 + 'vw';
-            snow.style.fontSize = (Math.random() * 20 + 10) + 'px';
-            snow.style.animationDuration = (Math.random() * 10 + 5) + 's';
-            snow.style.animationDelay = Math.random() * 10 + 's';
-            document.body.appendChild(snow);
-        }
-    </script>
+
+<body>
+
+<div class="overlay" id="overlay"></div>
+
+<script>
+const COUNT = 100;
+const overlay = document.getElementById("overlay");
+
+for (let i = 0; i < COUNT; i++) {
+  const b = document.createElement("span");
+  b.className = "b";
+
+  const size = Math.random() * 10 + 2;
+  const duration = Math.random() * 20 + 10;
+  const delay = Math.random() * 10;
+  const light = Math.random() * 10 + 90;
+
+  b.style.left = (i / COUNT * 100) + "%";
+  b.style.width = size + "px";
+  b.style.height = size + "px";
+  b.style.background = `hsla(0,0%,${light}%,0.8)`;
+  b.style.boxShadow = `0 0 15px 10px hsla(0,0%,${light}%,0.5)`;
+  b.style.animationDuration = duration + "s";
+  b.style.animationDelay = delay + "s";
+
+  overlay.appendChild(b);
+}
+</script>
+
 </body>
 </html>
