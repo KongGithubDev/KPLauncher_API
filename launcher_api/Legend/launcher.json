@@ -1,0 +1,72 @@
+{
+  "launcherVer": 4,
+  "launcherName": "URCity Launcher",
+  "registryPath": "HKCU\\Software\\SAMP",
+  "themeColor": "#ffffff",
+  "launcherUrl": "http://samp-legend.net/legendlauncher-api/launcher.exe",
+  "launcherLogo": "https://img2.pic.in.th/pic/KongProjectLogo.png",
+  "discordUrl": "https://discord.gg/x594Tyhc7h",
+  "facebookUrl": "https://www.facebook.com/profile.php?id=61558318001230&mibextid=LQQJ4d",
+  "themeConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.json",
+  "languages": [
+    { "language": "th", "displayName": "ไทย", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/th.json" },
+    { "language": "en", "displayName": "English", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/en.json" }
+  ],
+  "discord": {
+    "clientId": "1438477239355314259",
+	  
+    "details": "Main Menu",
+    "state": "Legend Launcher",
+    "largeImageKey": "main",
+    "largeImageText": "Legend Server",
+    
+    "detailsPlaying": "Playing on {gameName}",
+    "statePlaying": "Character: {playerName}",
+    "largeImageTextPlaying": "In Game",
+
+    "detailsDownloading": "Updating {gameName}",
+    "stateDownloading": "Downloading files...",
+    "largeImageTextDownloading": "Patching...",
+
+    "detailsMenus": "In the menus",
+    "stateMenus": "Launcher Main Screen",
+    
+    "buttons": [
+      { "label": "Download", "url": "http://samp-legend.net/" },
+      { "label": "Discord", "url": "https://discord.gg/x594Tyhc7h" }
+    ]
+  },
+  "games": [
+	    {
+	      "name": "Legend Of Roleplay",
+	      "themeColor": "#ffdd00",
+	      "startCmd": "samp.exe ip.samp-legend.net:7777",
+	      "patchDataUrl": "http://samp-legend.net/legendlauncher-api/data.json",
+	
+	      "forceReinstall": false,
+	      "forceReinstallTimestamp": 0,
+	      "clientVer": 1,
+	      "clientUrl": "http://samp-legend.net/legendlauncher-api/game_base.zip",
+	      "patchUrls": [],
+	      "cheatblockerData": "http://samp-legend.net/legendlauncher-api/cb.json",
+	      "enbBaseUrl": "http://samp-legend.net/legendlauncher-api/enb/",
+	      "enbFiles": [
+	        { "fileName": "enbeffect.fx", "fileMD5": "860BCF2574BD01199CF0DFE2898A5F24" },
+	        { "fileName": "enblocal.ini", "fileMD5": "5FBE36BA9B1AC41541E136E2476D9939" },
+	        { "fileName": "enbseries.asi", "fileMD5": "06950EB8E1A2F04423F1A8E6AE175CE6" },
+	        { "fileName": "enbseries.ini", "fileMD5": "B7E4571AAF381EEC4A4ED9B17098456E" }
+	      ],
+	      "maintenance": false,
+	      "serverIp": "ip.samp-legend.net",
+	      "serverPort": 7777,
+	      "logo": "https://img5.pic.in.th/file/secure-sv1/Logo_Legend_New1.png",
+	      "banners": [],
+	      "bannersMoreUrl": "http://samp-legend.net/legendlauncher-api/banners.json",
+	      "videoUrls": [
+	        "https://www.youtube.com/watch?v=dgc_SeO3TZw",
+	        "https://www.youtube.com/watch?v=AA3FHHa0b5M",
+	        "https://www.youtube.com/watch?v=99DD_GovMs0"
+	      ]
+	    }
+  	]
+}
