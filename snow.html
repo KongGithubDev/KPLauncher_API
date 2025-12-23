@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fall {
+            0% { transform: translateY(-10vh) rotate(0deg); }
+            100% { transform: translateY(110vh) rotate(360deg); }
+        }
+        .snow {
+            position: absolute;
+            top: -10%;
+            animation: fall linear infinite;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="bg-transparent overflow-hidden w-screen h-screen">
+    <script>
+        for (let i = 0; i < 50; i++) {
+            const snow = document.createElement('div');
+            snow.className = 'snow text-white opacity-70';
+            snow.innerHTML = ['❄', '❅', '❆'][Math.floor(Math.random() * 3)];
+            snow.style.left = Math.random() * 100 + 'vw';
+            snow.style.fontSize = (Math.random() * 20 + 10) + 'px';
+            snow.style.animationDuration = (Math.random() * 10 + 5) + 's';
+            snow.style.animationDelay = Math.random() * 10 + 's';
+            document.body.appendChild(snow);
+        }
+    </script>
+</body>
+</html>
