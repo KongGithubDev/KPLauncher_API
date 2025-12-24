@@ -1,5 +1,5 @@
 {
-  "launcherVer": 4,
+  "launcherVer": 5,
   "launcherName": "Legend Launcher",
   "registryPath": "HKCU\\Software\\SAMP",
   "themeColor": "#ffffff",
@@ -38,7 +38,7 @@
 	      "name": "Legend Of Roleplay",
 	      "themeColor": "#d1001f",
 	      "startCmd": "samp.exe ip.samp-legend.net:7777",
-	      "patchDataUrl": "http://samp-legend.net/legendlauncher-api/data.json",
+	      "DataUrl": "http://samp-legend.net/legendlauncher-api/data.json",
 	
 	      "forceReinstall": false,
 	      "forceReinstallTimestamp": 0,
@@ -58,12 +58,7 @@
 	      "serverPort": 7777,
 	      "logo": "https://img5.pic.in.th/file/secure-sv1/Logo_Legend_New1.png",
 	      "banners": [],
-	      "bannersMoreUrl": "http://samp-legend.net/legendlauncher-api/banners.json",
-	      "videoUrls": [
-	        "https://www.youtube.com/watch?v=dgc_SeO3TZw",
-	        "https://www.youtube.com/watch?v=AA3FHHa0b5M",
-	        "https://www.youtube.com/watch?v=99DD_GovMs0"
-	      ]
+	      "bannersMoreUrl": "http://samp-legend.net/legendlauncher-api/banners.json"
 	    }
   	]
 }
