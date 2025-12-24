@@ -1,5 +1,5 @@
 {
-  "launcherVer": 4,
+  "launcherVer": 8,
   "launcherName": "URCity Launcher",
   "registryPath": "HKCU\\Software\\SAMP",
   "themeColor": "#ffffff",
@@ -37,7 +37,7 @@
 	      "name": "URCity",
 	      "themeColor": "#ffdd00",
 	      "startCmd": "samp.exe 168.222.20.193:7777",
-	      "patchDataUrl": "http://168.222.20.228/URCityLauncher_API/data.json",
+	      "DataUrl": "http://168.222.20.228/URCityLauncher_API/data.json",
 	
 	      "forceReinstall": false,
 	      "forceReinstallTimestamp": 0,
@@ -57,12 +57,7 @@
 	      "serverPort": 7777,
 	      "logo": "https://img2.pic.in.th/pic/logo8c2b042b2aaa6576.png",
 	      "banners": [],
-	      "bannersMoreUrl": "http://168.222.20.228/URCityLauncher_API/banners.json",
-	      "videoUrls": [
-	        "https://www.youtube.com/watch?v=qtz8t3xoLIU",
-	        "https://www.youtube.com/watch?v=uxuLmPObYaw",
-	        "https://www.youtube.com/watch?v=tsqs_vAwwcI"
-	      ]
+	      "bannersMoreUrl": "http://168.222.20.228/URCityLauncher_API/banners.json"
 	    }
   	]
 }
