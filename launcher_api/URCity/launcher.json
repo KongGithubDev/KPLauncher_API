@@ -39,8 +39,6 @@
 	      "startCmd": "samp.exe 168.222.20.193:7777",
 	      "DataUrl": "http://168.222.20.228/URCityLauncher_API/data.json",
 	
-	      "forceReinstall": false,
-	      "forceReinstallTimestamp": 0,
 	      "clientVer": 1,
 	      "clientUrl": "https://pub-926310bf9c804b08b14509fc3f41b15a.r2.dev/game_base.zip",
 	      "patchUrls": [],
