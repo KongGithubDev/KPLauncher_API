@@ -40,8 +40,6 @@
 	      "startCmd": "samp.exe ip.samp-legend.net:7777",
 	      "DataUrl": "http://samp-legend.net/legendlauncher-api/data.json",
 	
-	      "forceReinstall": false,
-	      "forceReinstallTimestamp": 0,
 	      "clientVer": 1,
 	      "clientUrl": "http://samp-legend.net/legendlauncher-api/game_base.zip",
 	      "patchUrls": [],
