@@ -1,5 +1,5 @@
 {
-  "launcherVer": 13,
+  "launcherVer": 14,
   "launcherName": "URCity Launcher",
   "registryPath": "HKCU\\Software\\SAMP",
   "themeColor": "#ffffff",
@@ -55,7 +55,13 @@
 	      "serverIp": "168.222.20.193",
 	      "serverPort": 7777,
 	      "logo": "https://img2.pic.in.th/pic/logo8c2b042b2aaa6576.png",
-	      "banners": [],
+	      "banners": [
+			  {
+		        "image": "https://img2.pic.in.th/CheatBlocker-V2.0.1.png",
+		        "title": "CheatBlocker V2.0.1",
+		        "description": "This update enhances protection against unauthorized cheat injection, improving overall security and game integrity."
+		    }
+		  ],
 	      "bannersMoreUrl": "http://168.222.20.228/URCityLauncher_API/banners.json"
 	    }
   	]
