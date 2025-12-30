@@ -45,7 +45,7 @@
   "enterNameError": "Please enter player name first",
   "verifyingFiles": "Verifying Files...",
   "securityViolation": "Security Violation",
-  "cheatDetectedMessage": "We detected an anomaly during game startup. Please stop this action or try uninstalling and reinstalling the game. By CheatBlocker",
+  "cheatDetectedMessage": "An anomaly was detected during gameplay. Please stop the current action. If you believe this is a mistake, uninstall and reinstall the game. by CheatBlocker",
   "integrityCheckFailed": "Integrity Check Failed: ",
   "reinstalling": "Reinstalling...",
   "insufficientSpace": "Insufficient disk space!\nRequired: {required} MB\nAvailable: {available} MB",
