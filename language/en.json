@@ -16,8 +16,6 @@
   "downloadClient": "Download Client",
   "updatingInProgress": "An update is currently in progress. Please wait.",
   "errorDownloadingFile": "Error while downloading a file",
-  "errorFetchingConfig": "Error fetching remote config: {error}",
-  "errorFetchingRemoteConfig": "Error while fetching remote config",
   "unableToFind7za": "Unable to find 7za.exe",
   "default": "Default",
   "downloadSpeed": "Download speed",
@@ -50,5 +48,6 @@
   "cheatDetectedMessage": "We detected an anomaly during game startup. Please stop this action or try uninstalling and reinstalling the game. By CheatBlocker",
   "integrityCheckFailed": "Integrity Check Failed: ",
   "reinstalling": "Reinstalling...",
-  "insufficientSpace": "Insufficient disk space!\nRequired: {required} MB\nAvailable: {available} MB"
+  "insufficientSpace": "Insufficient disk space!\nRequired: {required} MB\nAvailable: {available} MB",
+  "cheatBlockerMissing": "Security component missing or corrupted. Please reinstall the application or contact support."
 }
