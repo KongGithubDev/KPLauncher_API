@@ -1,57 +1,208 @@
 {
   "modules": [
-    { "name": "gta_sa.exe", "md5": "*" },
-    { "name": "samp.dll", "md5": "*" },
-
-    { "name": "audio.dll", "md5": "*" },
-    { "name": "eax.dll", "md5": "*" },
-
-    { "name": "ogg.dll", "md5": "*" },
-    { "name": "vorbis.dll", "md5": "*" },
-    { "name": "vorbisfile.dll", "md5": "*" },
-    { "name": "vorbishooked.dll", "md5": "*" },
-
-    { "name": "bass.dll", "md5": "*" },
-    { "name": "bass_fx.dll", "md5": "*" },
-    { "name": "bassmix.dll", "md5": "*" },
-    { "name": "bassflac.dll", "md5": "*" },
-    { "name": "bassmidi.dll", "md5": "*" },
-    { "name": "basswv.dll", "md5": "*" },
-    { "name": "basswma.dll", "md5": "*" },
-    { "name": "bass_aac.dll", "md5": "*" },
-    { "name": "bass_ac3.dll", "md5": "*" },
-    { "name": "bass_alac.dll", "md5": "*" },
-    { "name": "bass_ape.dll", "md5": "*" },
-    { "name": "bass_mpc.dll", "md5": "*" },
-    { "name": "bass_spx.dll", "md5": "*" },
-    { "name": "bass_tta.dll", "md5": "*" },
-
-    { "name": "modloader.asi", "md5": "*" },
-    { "name": "nodep.asi", "md5": "*" },
-
-    { "name": "iii.vc.sa.limitadjuster.asi", "md5": "*" },
-    { "name": "imglimitadjuster.asi", "md5": "*" },
-    { "name": "streammemfix.asi", "md5": "*" },
-
-    { "name": "normalmapfix.asi", "md5": "*" },
-    { "name": "outfitfix.asi", "md5": "*" },
-    { "name": "radarrect.asi", "md5": "*" },
-    { "name": "shellfix.asi", "md5": "*" },
-    { "name": "sa_widescreenfix_lite.asi", "md5": "*" },
-    { "name": "sampgraphicrestore.asi", "md5": "*" },
-
-    { "name": "anticrasher037.asi", "md5": "*" },
-    { "name": "moddedsaa.asi", "md5": "*" },
-
-    { "name": "std.asi.dll", "md5": "*" },
-    { "name": "std.bank.dll", "md5": "*" },
-    { "name": "std.data.dll", "md5": "*" },
-    { "name": "std.fx.dll", "md5": "*" },
-    { "name": "std.movies.dll", "md5": "*" },
-    { "name": "std.scm.dll", "md5": "*" },
-    { "name": "std.sprites.dll", "md5": "*" },
-    { "name": "std.stream.dll", "md5": "*" },
-    { "name": "std.text.dll", "md5": "*" },
-    { "name": "std.tracks.dll", "md5": "*" }
+    {
+      "md5": "2b5066bd4097ac2944ce6a9cf8fe5677",
+      "name": "gta_sa.exe"
+    },
+    {
+      "md5": "90223f6248b55e0813687fe1b7277dd7",
+      "name": "vorbisfile.dll"
+    },
+    {
+      "md5": "7091f37e80365fe56e4cb26aff73ad48",
+      "name": "eax.dll"
+    },
+    {
+      "md5": "f34b4d84154ec4fe65bda1833d22bfa7",
+      "name": "samp.dll"
+    },
+    {
+      "md5": "c5b3059004e2c7631915ec044f4e6c63",
+      "name": "bass.dll"
+    },
+    {
+      "md5": "2b7b803311d2b228f065c45d13e1aeb2",
+      "name": "vorbishooked.dll"
+    },
+    {
+      "md5": "0602f672ba595716e64ec4040e6de376",
+      "name": "ogg.dll"
+    },
+    {
+      "md5": "2840f08dd9753a5b13c60d6d1c165c9a",
+      "name": "vorbis.dll"
+    },
+    {
+      "md5": "c71d7e5f7fbf97e95b2235a3123f9af0",
+      "name": "anticrasher037.asi"
+    },
+    {
+      "md5": "9e4e513a8e8f587e4475476c5a446ff2",
+      "name": "audio.asi"
+    },
+    {
+      "md5": "d229ef391e1777fccdbd639ced98adf8",
+      "name": "cleo.asi"
+    },
+    {
+      "md5": "dd32e5056f698a9b20f4067d478dc208",
+      "name": "filesystemoperations.cleo"
+    },
+    {
+      "md5": "08380cf67b1f269adff0cad2d896da17",
+      "name": "inifiles.cleo"
+    },
+    {
+      "md5": "c0d7ef028aef3ed6308be8a096bc1302",
+      "name": "intoperations.cleo"
+    },
+    {
+      "md5": "d6c400ea969506c58ca1f90549c05d27",
+      "name": "iii.vc.sa.limitadjuster.asi"
+    },
+    {
+      "md5": "a5e52d858e2a8b8713aa9272ad5c934e",
+      "name": "imglimitadjuster.asi"
+    },
+    {
+      "md5": "5e78f09d28014d6a963dcc72dbef7225",
+      "name": "moddedsaa.asi"
+    },
+    {
+      "md5": "7bca6c02c326ad80b51c8ba4a3ab7081",
+      "name": "modloader.asi"
+    },
+    {
+      "md5": "9ecd4f280066f0148e55add186996a8a",
+      "name": "nodep.asi"
+    },
+    {
+      "md5": "479f790d850aa208a73787411c1df97e",
+      "name": "normalmapfix.asi"
+    },
+    {
+      "md5": "795df56453ab16ed321a3937efa33d82",
+      "name": "outfitfix.asi"
+    },
+    {
+      "md5": "cfa2d51d5c84e3b34959d1c426c182df",
+      "name": "radarrect.asi"
+    },
+    {
+      "md5": "01e70dd69019f9d965f3f0c4711dcce4",
+      "name": "sampgraphicrestore.asi"
+    },
+    {
+      "md5": "6af8fe5539635e837f746ad576f8f192",
+      "name": "sampvoice.asi"
+    },
+    {
+      "md5": "e7f4494bdf7b1c49a303fe56c6b52dc9",
+      "name": "bass_fx.dll"
+    },
+    {
+      "md5": "e22d585ea68b78effa2a56bf4a89fd37",
+      "name": "sa_widescreenfix_lite.asi"
+    },
+    {
+      "md5": "9d337b486160ab57eb1f3d980b4d98cb",
+      "name": "shellfix.asi"
+    },
+    {
+      "md5": "2e8712c56f19f92f7f74f2d0c76f9c5f",
+      "name": "streammemfix.asi"
+    },
+    {
+      "md5": "6213e58c7afebba3c9a544d136867192",
+      "name": "std.asi.dll"
+    },
+    {
+      "md5": "b62c4afdd4185dc101a4ef00c2f96df0",
+      "name": "std.bank.dll"
+    },
+    {
+      "md5": "6071e23e21a6dbf14d1ccc1c40c8999e",
+      "name": "std.data.dll"
+    },
+    {
+      "md5": "6d3d25d18bafd2a3aa8ffc45210f8d6f",
+      "name": "std.fx.dll"
+    },
+    {
+      "md5": "2f6cffc454480a78b8dd5e6deaf59a22",
+      "name": "std.movies.dll"
+    },
+    {
+      "md5": "c4985af123ec3eb3542dd39bc48cf559",
+      "name": "std.scm.dll"
+    },
+    {
+      "md5": "4eb5de5941e2d777d082f0d55d8ea5a7",
+      "name": "std.sprites.dll"
+    },
+    {
+      "md5": "66abdbad403be76682f3f0c9a74bd555",
+      "name": "std.stream.dll"
+    },
+    {
+      "md5": "92eb256f95d7f4a290c2d5fb77a7a629",
+      "name": "std.text.dll"
+    },
+    {
+      "md5": "62b4f02f39ee472a9e18c0b83f61045a",
+      "name": "std.tracks.dll"
+    },
+    {
+      "md5": "f84bd9d7a638eaf6da5660fe755fd74e",
+      "name": "audio.dll"
+    },
+    {
+      "md5": "4f1ea0f70827b33e149eae318426dd4a",
+      "name": "bassmix.dll"
+    },
+    {
+      "md5": "99b7b694e20e084d4921da3a268f75f8",
+      "name": "bass_aac.dll"
+    },
+    {
+      "md5": "e0b7b3b23e1ad4bfbe9c29964e377cc5",
+      "name": "bass_ac3.dll"
+    },
+    {
+      "md5": "5bb5a6d220e404f8e8e26baad6ed8f9a",
+      "name": "bass_alac.dll"
+    },
+    {
+      "md5": "8b18088f73934fccc933be1124231d45",
+      "name": "bass_ape.dll"
+    },
+    {
+      "md5": "52420b97e59b525adef27bf51983f036",
+      "name": "bass_mpc.dll"
+    },
+    {
+      "md5": "2f4db4ee83e4a442b6c1df571f17ea98",
+      "name": "bass_spx.dll"
+    },
+    {
+      "md5": "4ad2d66e10aaa0ffe4c7a4f46eadbb56",
+      "name": "bass_tta.dll"
+    },
+    {
+      "md5": "50af8a7d49e83a723ed0f70fb682dcfb",
+      "name": "bassflac.dll"
+    },
+    {
+      "md5": "ea8c604153561e1e20cbc471696533fc",
+      "name": "bassmidi.dll"
+    },
+    {
+      "md5": "7b52be6d702aa590db57a0e135f81c45",
+      "name": "basswma.dll"
+    },
+    {
+      "md5": "4304c0e41adc990c05042b5aef6a9e08",
+      "name": "basswv.dll"
+    }
   ]
 }
