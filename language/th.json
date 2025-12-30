@@ -46,8 +46,8 @@
     "at": "ที่",
     "enterNameError": "กรุณากรอกชื่อผู้เล่นก่อน",
     "verifyingFiles": "กำลังตรวจสอบไฟล์...",
-    "securityViolation": "ตรวจพบความคลาดเคลื่อน",
-    "cheatDetectedMessage": "ไฟล์เกมของคุณถูกแก้ไขหรือเสียหาย\nระบบจะทำการรีเซ็ตและติดตั้งเกมใหม่เดี๋ยวนี้",
+    "securityViolation": "ตรวจพบความผิดปกติ",
+    "cheatDetectedMessage": "เราตรวจพบความผิดปกติในขณะที่เริ่มเกม\nโปรดหยุดการกระทำดังกล่าวหรือลองถอนการติดตั้งตัวเกมและติดตั้งใหม่อีกครั้ง\nBy CheatBlocker",
     "integrityCheckFailed": "การตรวจสอบไฟล์ล้มเหลว: ",
     "reinstalling": "กำลังติดตั้งใหม่...",
     "insufficientSpace": "พื้นที่ว่างไม่เพียงพอ!\nต้องการ: {required} MB\nมีอยู่: {available} MB"
