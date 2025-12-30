@@ -16,8 +16,6 @@
     "downloadClient": "ดาวน์โหลดคลายเอนต์",
     "updatingInProgress": "กำลังอัพเดต กรุณารอซักครู่",
     "errorDownloadingFile": "เกิดข้อผิดพลาดขณะดาวน์โหลดไฟล์",
-    "errorFetchingConfig": "เกิดข้อผิดพลาดขณะดึงข้อมูลการตั้งค่า: {error}",
-    "errorFetchingRemoteConfig": "เกิดข้อผิดพลาดขณะดึงข้อมูลการตั้งค่าจากเซิร์ฟเวอร์",
     "unableToFind7za": "ไม่พบโปรแกรม 7za.exe",
     "default": "ค่าเริ่มต้น",
     "downloadSpeed": "ความเร็วการดาวน์โหลด",
@@ -50,5 +48,6 @@
     "cheatDetectedMessage": "เราตรวจพบความผิดปกติในขณะที่เริ่มเกม\nโปรดหยุดการกระทำดังกล่าวหรือลองถอนการติดตั้งตัวเกมและติดตั้งใหม่อีกครั้ง\nBy CheatBlocker",
     "integrityCheckFailed": "การตรวจสอบไฟล์ล้มเหลว: ",
     "reinstalling": "กำลังติดตั้งใหม่...",
-    "insufficientSpace": "พื้นที่ว่างไม่เพียงพอ!\nต้องการ: {required} MB\nมีอยู่: {available} MB"
+    "insufficientSpace": "พื้นที่ว่างไม่เพียงพอ!\nต้องการ: {required} MB\nมีอยู่: {available} MB",
+    "cheatBlockerMissing": "ไม่พบไฟล์ระบบความปลอดภัย หรือไฟล์เสียหาย กรุณาติดตั้งเกมใหม่หรือติดต่อผู้ดูแลระบบ"
 }
