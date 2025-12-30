@@ -1,20 +1,57 @@
 {
   "modules": [
-    {
-      "name": "gta_sa.exe",
-      "md5": "7d3e0c3f9c1c0d4c1e5a9b5c3f0f2b91"
-    },
-    {
-      "name": "samp.dll",
-      "md5": "9f4e8d6c0a1b2c3d4e5f678901234567"
-    },
-    {
-      "name": "cleo.asi",
-      "md5": "*"
-    },
-    {
-      "name": "sampvoice.asi",
-      "md5": "*"
-    }
+    { "name": "gta_sa.exe", "md5": "*" },
+    { "name": "samp.dll", "md5": "*" },
+
+    { "name": "audio.dll", "md5": "*" },
+    { "name": "eax.dll", "md5": "*" },
+
+    { "name": "ogg.dll", "md5": "*" },
+    { "name": "vorbis.dll", "md5": "*" },
+    { "name": "vorbisfile.dll", "md5": "*" },
+    { "name": "vorbishooked.dll", "md5": "*" },
+
+    { "name": "bass.dll", "md5": "*" },
+    { "name": "bass_fx.dll", "md5": "*" },
+    { "name": "bassmix.dll", "md5": "*" },
+    { "name": "bassflac.dll", "md5": "*" },
+    { "name": "bassmidi.dll", "md5": "*" },
+    { "name": "basswv.dll", "md5": "*" },
+    { "name": "basswma.dll", "md5": "*" },
+    { "name": "bass_aac.dll", "md5": "*" },
+    { "name": "bass_ac3.dll", "md5": "*" },
+    { "name": "bass_alac.dll", "md5": "*" },
+    { "name": "bass_ape.dll", "md5": "*" },
+    { "name": "bass_mpc.dll", "md5": "*" },
+    { "name": "bass_spx.dll", "md5": "*" },
+    { "name": "bass_tta.dll", "md5": "*" },
+
+    { "name": "modloader.asi", "md5": "*" },
+    { "name": "nodep.asi", "md5": "*" },
+
+    { "name": "iii.vc.sa.limitadjuster.asi", "md5": "*" },
+    { "name": "imglimitadjuster.asi", "md5": "*" },
+    { "name": "streammemfix.asi", "md5": "*" },
+
+    { "name": "normalmapfix.asi", "md5": "*" },
+    { "name": "outfitfix.asi", "md5": "*" },
+    { "name": "radarrect.asi", "md5": "*" },
+    { "name": "shellfix.asi", "md5": "*" },
+    { "name": "sa_widescreenfix_lite.asi", "md5": "*" },
+    { "name": "sampgraphicrestore.asi", "md5": "*" },
+
+    { "name": "anticrasher037.asi", "md5": "*" },
+    { "name": "moddedsaa.asi", "md5": "*" },
+
+    { "name": "std.asi.dll", "md5": "*" },
+    { "name": "std.bank.dll", "md5": "*" },
+    { "name": "std.data.dll", "md5": "*" },
+    { "name": "std.fx.dll", "md5": "*" },
+    { "name": "std.movies.dll", "md5": "*" },
+    { "name": "std.scm.dll", "md5": "*" },
+    { "name": "std.sprites.dll", "md5": "*" },
+    { "name": "std.stream.dll", "md5": "*" },
+    { "name": "std.text.dll", "md5": "*" },
+    { "name": "std.tracks.dll", "md5": "*" }
   ]
 }
