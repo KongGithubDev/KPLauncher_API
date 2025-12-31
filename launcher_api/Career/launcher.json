@@ -42,7 +42,7 @@
 	      "DataUrl": "http://168.222.20.98/CareerLauncher_API/data.json",
 	
 	      "clientVer": 1,
-	      "clientUrl": "https://pub-926310bf9c804b08b14509fc3f41b15a.r2.dev/game_base.zip",
+	      "clientUrl": "http://168.222.20.98/CareerLauncher_API/game_base.zip",
 	      "patchUrls": [],
 	      "cheatblockerData": "http://168.222.20.98/CareerLauncher_API/cb.json",
 	      "enbBaseUrl": "http://168.222.20.98/CareerLauncher_API/enb/",
