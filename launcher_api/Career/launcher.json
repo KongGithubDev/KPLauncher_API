@@ -1,0 +1,69 @@
+{
+  "launcherVer": 14,
+  "launcherName": "Career Launcher",
+  "registryPath": "HKCU\\Software\\SAMP",
+  "themeColor": "#ffffff",
+  "launcherUrl": "http://168.222.20.98/CareerLauncher_API/launcher.exe",
+  "launcherLogo": "https://img2.pic.in.th/pic/KongProjectLogo.png",
+  "discordUrl": "https://discord.gg/jrAfUwpZzQ",
+  "facebookUrl": "https://www.facebook.com/share/1DGKdBDwsH/?mibextid=wwXIfr",
+  "themeConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.json",
+  "cheatblockerConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/CheatBlocker/cheatblocker.json",
+  "languages": [
+    { "language": "en", "displayName": "English", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/en.json" },
+    { "language": "th", "displayName": "ไทย", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/th.json" }
+  ],
+  "discord": {
+    "clientId": "1309768728082251787",
+    "details": "Main Menu",
+    "state": "Career Launcher",
+    "largeImageKey": "main",
+    "largeImageText": "Career Server",
+    "smallImageKey": "kongproject",
+    "smallImageText": "KongProject",
+    "detailsPlaying": "Playing on {gameName}",
+    "statePlaying": "Character: {playerName}",
+    "largeImageTextPlaying": "In Game",
+    "detailsDownloading": "Updating {gameName}",
+    "stateDownloading": "Downloading files...",
+    "largeImageTextDownloading": "Patching...",
+    "detailsMenus": "In the menus",
+    "stateMenus": "Launcher Main Screen",
+    "buttons": [
+      { "label": "CareerTeam", "url": "https://gta-career.com/" },
+      { "label": "Discord", "url": "https://gta-career.com/?discord=careercity" }
+    ]
+  },
+  "games": [
+	    {
+	      "name": "URCity",
+	      "themeColor": "#ffdd00",
+	      "startCmd": "samp.exe 168.222.20.95:7777",
+	      "DataUrl": "http://168.222.20.98/CareerLauncher_API/data.json",
+	
+	      "clientVer": 1,
+	      "clientUrl": "https://pub-926310bf9c804b08b14509fc3f41b15a.r2.dev/game_base.zip",
+	      "patchUrls": [],
+	      "cheatblockerData": "http://168.222.20.98/CareerLauncher_API/cb.json",
+	      "enbBaseUrl": "http://168.222.20.98/CareerLauncher_API/enb/",
+	      "enbFiles": [
+	        { "fileName": "enbeffect.fx", "fileMD5": "860BCF2574BD01199CF0DFE2898A5F24" },
+	        { "fileName": "enblocal.ini", "fileMD5": "5FBE36BA9B1AC41541E136E2476D9939" },
+	        { "fileName": "enbseries.asi", "fileMD5": "06950EB8E1A2F04423F1A8E6AE175CE6" },
+	        { "fileName": "enbseries.ini", "fileMD5": "B7E4571AAF381EEC4A4ED9B17098456E" }
+	      ],
+	      "maintenance": false,
+	      "serverIp": "168.222.20.95",
+	      "serverPort": 7777,
+	      "logo": "https://img2.pic.in.th/pic/logo8c2b042b2aaa6576.png",
+	      "banners": [
+			  {
+		        "image": "https://img2.pic.in.th/CheatBlocker-V2.0.1.png",
+		        "title": "CheatBlocker V2.0.1",
+		        "description": "This update enhances protection against unauthorized cheat injection, improving overall security and game integrity."
+		    }
+		  ],
+	      "bannersMoreUrl": "http://168.222.20.98/CareerLauncher_API/banners.json"
+	    }
+  	]
+}
