@@ -36,8 +36,8 @@
   },
   "games": [
 	    {
-	      "name": "URCity",
-	      "themeColor": "#ffdd00",
+	      "name": "Legend",
+	      "themeColor": "#6fb6f6",
 	      "startCmd": "samp.exe 168.222.20.95:7777",
 	      "DataUrl": "http://168.222.20.98/CareerLauncher_API/data.json",
 	
@@ -55,7 +55,7 @@
 	      "maintenance": false,
 	      "serverIp": "168.222.20.95",
 	      "serverPort": 7777,
-	      "logo": "https://img2.pic.in.th/pic/logo8c2b042b2aaa6576.png",
+	      "logo": "https://img5.pic.in.th/file/secure-sv1/careercity42dccad68238cc9c.png",
 	      "banners": [
 			  {
 		        "image": "https://img2.pic.in.th/CheatBlocker-V2.0.1.png",
