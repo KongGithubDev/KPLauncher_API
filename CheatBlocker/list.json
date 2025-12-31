@@ -13,7 +13,7 @@
       "name": "eax.dll"
     },
     {
-      "md5": "f34b4d84154ec4fe65bda1833d22bfa7",
+      "md5": "*",
       "name": "samp.dll"
     },
     {
@@ -99,6 +99,14 @@
     {
       "md5": "6af8fe5539635e837f746ad576f8f192",
       "name": "sampvoice.asi"
+    },
+    {
+      "md5": "75e5ad2623225c5432214b3bff4faa92",
+      "name": "KongProjectVoice.asi"
+    },
+    {
+      "md5": "b70b1c16cf97852adba4ed8d8dc61f31",
+      "name": "sampp_client.asi"
     },
     {
       "md5": "e7f4494bdf7b1c49a303fe56c6b52dc9",
