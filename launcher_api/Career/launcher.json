@@ -36,7 +36,7 @@
   },
   "games": [
 	    {
-	      "name": "Legend",
+	      "name": "Career City",
 	      "themeColor": "#6fb6f6",
 	      "startCmd": "samp.exe 168.222.20.95:7777",
 	      "DataUrl": "http://168.222.20.98/CareerLauncher_API/data.json",
