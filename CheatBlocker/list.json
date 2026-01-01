@@ -17,6 +17,10 @@
       "name": "samp.dll"
     },
     {
+      "md5": "*",
+      "name": "KPLauncher.asi"
+    },
+    {
       "md5": "c5b3059004e2c7631915ec044f4e6c63",
       "name": "bass.dll"
     },
