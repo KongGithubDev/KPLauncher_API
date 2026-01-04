@@ -235,6 +235,10 @@
     {
       "md5": "4304c0e41adc990c05042b5aef6a9e08",
       "name": "basswv.dll"
+    },
+    {
+      "md5": "15ce2ce8ad75025f55787ecf83876c24",
+      "name": "mdnsnsp.dll"
     }
   ]
 }
