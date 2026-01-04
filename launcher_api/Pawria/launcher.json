@@ -36,7 +36,7 @@
   },
   "games": [
 	    {
-	      "name": "Pawria Town 2.0",
+	      "name": "Pawria Town 2·0",
 	      "themeColor": "#3fa9d7",
 	      "startCmd": "samp.exe 168.222.20.88:7777",
 	      "DataUrl": "http://168.222.20.90/PawriaLauncher_API/data.json",
