@@ -1,0 +1,8 @@
+{
+  "announcement": {
+    "message": "🚨 EMERGENCY MAINTENANCE 🚨\nServer will restart in 10 minutes.",
+    "timestamp": 200, 
+    "type": "error",
+    "layout": "modal-text"
+  }
+}
