@@ -4,13 +4,13 @@
       "id": "global_maint_001",
       "timestamp": 1767637000,
       "type": "error",
-      "message": "⚠️ Emergency Maintenance\nServers are going down in 5 minutes."
+      "message": "⚠️ Emergency Maintenance\nServers are going down in 5 minutes. (TEST)"
     },
     {
-      "id": "global_event_newyear",
+      "id": "global_event",
       "timestamp": 1767638000,
       "layout": "modal-image",
-      "imageUrl": "https://img2.pic.in.th/title.jpg"
+      "imageUrl": "http://samp-legend.net/LEGENDGAME/img/title.png"
     }
   ]
 }
