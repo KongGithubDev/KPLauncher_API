@@ -44,6 +44,7 @@
 	      "clientUrl": "https://pub-926310bf9c804b08b14509fc3f41b15a.r2.dev/game_base.zip",
 	      "patchUrls": [],
 	      "cheatblockerData": "http://168.222.20.228/URCityLauncher_API/cb.json",
+		  "removeFilesData": "http://168.222.20.228/URCityLauncher_API/remove-list.json",
 	      "enbBaseUrl": "http://168.222.20.228/URCityLauncher_API/enb/",
 	      "enbFiles": [
 	        { "fileName": "enbeffect.fx", "fileMD5": "860BCF2574BD01199CF0DFE2898A5F24" },
