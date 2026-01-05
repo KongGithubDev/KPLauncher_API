@@ -12,6 +12,7 @@
     "message": "Welcome to Legend Launcher!\nSystem is now online.",
     "timestamp": 1767629640
   },
+  "announcementGlobal": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/announcement.json",
   "languages": [
     { "language": "en", "displayName": "English", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/en.json" },
     { "language": "th", "displayName": "ไทย", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/th.json" }
