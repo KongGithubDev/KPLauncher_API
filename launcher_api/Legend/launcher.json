@@ -44,6 +44,7 @@
 	      "clientUrl": "http://samp-legend.net/legendlauncher-api/game_base.zip",
 	      "patchUrls": [],
 	      "cheatblockerData": "http://samp-legend.net/legendlauncher-api/cb.json",
+	      "removeFilesData": "http://samp-legend.net/legendlauncher-api/remove-list.json",
 	      "enbBaseUrl": "http://samp-legend.net/legendlauncher-api/enb/",
 	      "enbFiles": [
 	        { "fileName": "enbeffect.fx", "fileMD5": "860BCF2574BD01199CF0DFE2898A5F24" },
