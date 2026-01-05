@@ -50,5 +50,12 @@
   "reinstalling": "Reinstalling...",
   "insufficientSpace": "Insufficient disk space!\nRequired: {required} MB\nAvailable: {available} MB",
   "cheatBlockerMissing": "Security component missing or corrupted. Please reinstall the application or contact support.",
-  "gameLaunchFailed": "Game failed to start / Timeout (10s). Please try again."
+  "gameLaunchFailed": "Game failed to start / Timeout (10s). Please try again.",
+  "announcementTitle": "Announcement",
+  "announcementTitleWarning": "Warning",
+  "announcementTitleError": "Critical Error",
+  "announcementTitleSuccess": "Success",
+  "announcementNext": "Next >",
+  "announcementBack": "< Back",
+  "announcementAcknowledge": "Acknowledge"
 }
