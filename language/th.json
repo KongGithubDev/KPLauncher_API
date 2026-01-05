@@ -50,5 +50,12 @@
     "reinstalling": "กำลังติดตั้งใหม่...",
     "insufficientSpace": "พื้นที่ว่างไม่เพียงพอ!\nต้องการ: {required} MB\nมีอยู่: {available} MB",
     "cheatBlockerMissing": "ไม่พบไฟล์ระบบความปลอดภัย หรือไฟล์เสียหาย กรุณาติดตั้งเกมใหม่หรือติดต่อผู้ดูแลระบบ",
-    "gameLaunchFailed": "Game failed to start / Timeout (10s). Please try again."
+    "gameLaunchFailed": "Game failed to start / Timeout (10s). Please try again.",
+    "announcementTitle": "ประกาศ",
+    "announcementTitleWarning": "คำเตือน",
+    "announcementTitleError": "ข้อผิดพลาดร้ายแรง",
+    "announcementTitleSuccess": "สำเร็จ",
+    "announcementNext": "ถัดไป >",
+    "announcementBack": "< ก่อนหน้า",
+    "announcementAcknowledge": "รับทราบ"
 }
