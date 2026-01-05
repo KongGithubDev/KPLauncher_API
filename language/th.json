@@ -49,5 +49,6 @@
     "integrityCheckFailed": "การตรวจสอบไฟล์ล้มเหลว: ",
     "reinstalling": "กำลังติดตั้งใหม่...",
     "insufficientSpace": "พื้นที่ว่างไม่เพียงพอ!\nต้องการ: {required} MB\nมีอยู่: {available} MB",
-    "cheatBlockerMissing": "ไม่พบไฟล์ระบบความปลอดภัย หรือไฟล์เสียหาย กรุณาติดตั้งเกมใหม่หรือติดต่อผู้ดูแลระบบ"
+    "cheatBlockerMissing": "ไม่พบไฟล์ระบบความปลอดภัย หรือไฟล์เสียหาย กรุณาติดตั้งเกมใหม่หรือติดต่อผู้ดูแลระบบ",
+    "gameLaunchFailed": "Game failed to start / Timeout (10s). Please try again."
 }
