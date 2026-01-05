@@ -49,5 +49,6 @@
   "integrityCheckFailed": "Integrity Check Failed: ",
   "reinstalling": "Reinstalling...",
   "insufficientSpace": "Insufficient disk space!\nRequired: {required} MB\nAvailable: {available} MB",
-  "cheatBlockerMissing": "Security component missing or corrupted. Please reinstall the application or contact support."
+  "cheatBlockerMissing": "Security component missing or corrupted. Please reinstall the application or contact support.",
+  "gameLaunchFailed": "Game failed to start / Timeout (10s). Please try again."
 }
