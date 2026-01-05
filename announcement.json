@@ -1,8 +1,16 @@
 {
-  "announcement": {
-    "message": "🚨 EMERGENCY MAINTENANCE 🚨\nServer will restart in 10 minutes.",
-    "timestamp": 200, 
-    "type": "error",
-    "layout": "modal-text"
-  }
+  "announcements": [
+    {
+      "id": "global_maint_001",
+      "timestamp": 1767637000,
+      "type": "error",
+      "message": "⚠️ Emergency Maintenance\nServers are going down in 5 minutes."
+    },
+    {
+      "id": "global_event_newyear",
+      "timestamp": 1767638000,
+      "layout": "modal-image",
+      "imageUrl": "https://img2.pic.in.th/pic/NewYear2026.png"
+    }
+  ]
 }
