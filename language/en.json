@@ -15,7 +15,7 @@
   "downloadUpdates": "Download Updates",
   "downloadClient": "Download Client",
   "updatingInProgress": "An update is currently in progress. Please wait.",
-  "errorDownloadingFile": "Error while downloading a file",
+  "errorDownloadingFile": "Error downloading file: {error}\nPlease check your internet connection and try again.",
   "unableToFind7za": "Unable to find 7za.exe",
   "default": "Default",
   "downloadSpeed": "Download speed",
