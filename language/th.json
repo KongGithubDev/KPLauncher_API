@@ -15,7 +15,7 @@
     "downloadUpdates": "ดาวน์โหลดอัพเดต",
     "downloadClient": "ดาวน์โหลดคลายเอนต์",
     "updatingInProgress": "กำลังอัพเดต กรุณารอซักครู่",
-    "errorDownloadingFile": "เกิดข้อผิดพลาดขณะดาวน์โหลดไฟล์",
+    "errorDownloadingFile": "เกิดข้อผิดพลาดในการดาวน์โหลดไฟล์: {error}\nโปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณแล้วลองใหม่อีกครั้ง",
     "unableToFind7za": "ไม่พบโปรแกรม 7za.exe",
     "default": "ค่าเริ่มต้น",
     "downloadSpeed": "ความเร็วการดาวน์โหลด",
