@@ -29,6 +29,10 @@
       "name": "lua5.1.dll"
     },
     {
+      "md5": "*",
+      "name": "symsrv.dll"
+    }
+    {
       "md5": "da867f9d2db1d1ffb4413e12f1766ffe",
       "name": "kongloads.asi"
     },
