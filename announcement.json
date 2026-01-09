@@ -1,16 +1,11 @@
 {
   "announcements": [
     {
-      "id": "global_maint_001",
-      "timestamp": 1767637000,
-      "type": "error",
-      "message": "⚠️ Emergency Maintenance\nServers are going down in 5 minutes. (TEST)"
-    },
-    {
-      "id": "global_event",
-      "timestamp": 1767638000,
-      "layout": "modal-image",
-      "imageUrl": "http://samp-legend.net/LEGENDGAME/img/title.png"
+      "id": "global_001",
+      "timestamp": 1767965682,
+      "type": "info",
+      "layout": "modal-text",
+      "message": "ยินดีต้อนรับสู่ Launcher เวอร์ชันใหม่ล่าสุด!"
     }
   ]
 }
