@@ -2,10 +2,10 @@
   "announcements": [
     {
       "id": "global_001",
-      "timestamp": 1768225656,
+      "timestamp": 1768227441,
       "type": "info",
       "layout": "modal-text",
-      "message": "อัพเดท 1.0.22 : ปรับปรุงประสิทธิภาพ Launcher"
+      "message": "อัพเดท 1.0.23 : ปรับปรุงประสิทธิภาพ Launcher"
     }
   ]
 }
