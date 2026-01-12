@@ -8,9 +8,7 @@
   "discordUrl": "https://discord.gg/x594Tyhc7h",
   "facebookUrl": "https://www.facebook.com/profile.php?id=61558318001230&mibextid=LQQJ4d",
   "themeConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.json",
-  "announcements": [
-    { "id": "local_welcome", "message": "Welcome back!" }
-  ],
+  "announcements": [],
   "announcementGlobal": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/announcement.json",
   "languages": [
     { "language": "en", "displayName": "English", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/en.json" },
