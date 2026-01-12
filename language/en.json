@@ -57,5 +57,6 @@
   "announcementTitleSuccess": "Success",
   "announcementNext": "Next >",
   "announcementBack": "< Back",
-  "announcementAcknowledge": "Acknowledge"
+  "announcementAcknowledge": "Acknowledge",
+  "deleteFailedRestart": "Failed to clean up game files. Files might be locked.\nPlease restart your computer and try again."
 }
