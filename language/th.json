@@ -57,5 +57,6 @@
     "announcementTitleSuccess": "สำเร็จ",
     "announcementNext": "ถัดไป >",
     "announcementBack": "< ก่อนหน้า",
-    "announcementAcknowledge": "รับทราบ"
+    "announcementAcknowledge": "รับทราบ",
+    "deleteFailedRestart": "ลบไฟล์เกมเดิมไม่สำเร็จ เนื่องจากไฟล์ค้างอยู่\nกรุณารีสตาร์ทคอมพิวเตอร์ แล้วลองใหม่อีกครั้งครับ"
 }
