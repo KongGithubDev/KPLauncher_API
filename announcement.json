@@ -1,11 +1,11 @@
 {
   "announcements": [
     {
-      "id": "global_001",
-      "timestamp": 1768227441,
+      "id": "theme_update_001",
+      "timestamp": 1768731754,
       "type": "info",
       "layout": "modal-text",
-      "message": "อัพเดท 1.0.23 : ปรับปรุงประสิทธิภาพ Launcher"
+      "message": "อัปเดตธีมใหม่ให้เหมาะกับช่วงเวลา กลางเดือน มกราคม!"
     }
   ]
 }
