@@ -1,5 +1,5 @@
 {
-  "launcherVer": 20,
+  "launcherVer": 24,
   "launcherName": "URCity Launcher",
   "registryPath": "HKCU\\Software\\SAMP",
   "themeColor": "#ffffff",
@@ -8,6 +8,8 @@
   "discordUrl": "https://discord.gg/jrAfUwpZzQ",
   "facebookUrl": "https://www.facebook.com/share/1DGKdBDwsH/?mibextid=wwXIfr",
   "themeConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.json",
+  "announcements": [],
+  "announcementGlobal": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/announcement.json",
   "cheatblockerConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/CheatBlocker/cheatblocker.json",
   "languages": [
     { "language": "en", "displayName": "English", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/en.json" },
