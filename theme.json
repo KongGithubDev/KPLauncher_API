@@ -1,15 +1,14 @@
 {
-  "themeColor": "#D42426",
-  "backgroundOpacity": 0.6,
-  
+  "themeColor": "#2EA8E6",
+  "backgroundOpacity": 0.85,
+
   "overlayUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.html",
   "overlayOpacity": 0.9,
 
   "customStyles": {
-    "--bg-primary": "#120101",
-    "--bg-secondary": "#1a0202",
-    "--theme-accent": "#D42426",
-    "--theme-accent-glow": "rgba(212, 36, 38, 0.4)",
-    "--accent-gold": "#FFD700"
+    "--bg-primary": "#08131a",
+    "--bg-secondary": "#0b1b24",
+    "--theme-accent": "#2EA8E6",
+    "--theme-accent-glow": "rgba(46,168,230,0.15)"
   }
 }
