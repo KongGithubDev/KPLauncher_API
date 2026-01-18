@@ -1,110 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
 <meta charset="UTF-8">
-<title>January Winter Overlay</title>
+<title>Cool Season Overlay</title>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root{
+  --air-glow: rgba(46,168,230,0.15);
 }
 
-.overlay {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 9999;
+*{margin:0;padding:0;box-sizing:border-box}
+
+/* overlay container */
+.overlay{
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  z-index:9999;
 }
 
-/* ❄️ Snow */
-.snow {
-  position: absolute;
-  top: -40px;
-  border-radius: 50%;
-  animation: fall linear infinite;
-}
-
-@keyframes fall {
-  0%   { transform: translateY(0) scale(0.6); opacity: 0; }
-  10%  { opacity: 1; }
-  100% { transform: translateY(110vh) scale(1); opacity: 0; }
-}
-
-/* 🧊 Icicles */
-.icicles {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 140px;
-  pointer-events: none;
-  z-index: 10000;
-}
-
-.icicle {
-  position: absolute;
-  top: 0;
-  width: 12px;
-  height: 80px;
-  background: linear-gradient(
-    to bottom,
-    rgba(220,245,255,.9),
-    rgba(160,220,255,.6),
-    rgba(160,220,255,0)
+/* floating mist */
+.mist{
+  position:absolute;
+  bottom:-50px;
+  width:140px;
+  height:45px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(200,235,255,0.35),
+    rgba(200,235,255,0)
   );
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
-  filter: blur(.2px);
-  animation: drip 6s ease-in-out infinite;
+  filter: blur(10px);
+  opacity:0;
+  animation: rise linear infinite;
 }
 
-@keyframes drip {
-  0%,100% { transform: translateY(0); opacity: .9; }
-  50% { transform: translateY(4px); opacity: 1; }
+@keyframes rise{
+  0%{
+    transform: translateY(0) scale(0.9);
+    opacity:0;
+  }
+  25%{opacity:0.45}
+  100%{
+    transform: translateY(-120vh) scale(1.25);
+    opacity:0;
+  }
+}
+
+/* ambient cool glow */
+.cool-glow{
+  position:fixed;
+  inset:0;
+  background:
+    radial-gradient(circle at 20% 10%, var(--air-glow), transparent 40%),
+    radial-gradient(circle at 80% 30%, var(--air-glow), transparent 45%);
+  pointer-events:none;
+  z-index:9998;
 }
 </style>
 </head>
 
 <body>
 
+<div class="cool-glow"></div>
 <div class="overlay" id="overlay"></div>
-<div class="icicles" id="icicles"></div>
 
 <script>
-/* ❄️ Snow */
-const SNOW_COUNT = 120;
 const overlay = document.getElementById("overlay");
+const MIST_COUNT = 20;
 
-for (let i = 0; i < SNOW_COUNT; i++) {
-  const s = document.createElement("span");
-  s.className = "snow";
-  const size = Math.random() * 6 + 2;
-  const duration = Math.random() * 18 + 10;
-  const delay = Math.random() * 10;
+for(let i=0;i<MIST_COUNT;i++){
+  const m = document.createElement("span");
+  m.className = "mist";
 
-  s.style.left = Math.random() * 100 + "%";
-  s.style.width = size + "px";
-  s.style.height = size + "px";
-  s.style.background = "rgba(220,245,255,.9)";
-  s.style.boxShadow = "0 0 12px rgba(200,235,255,.8)";
-  s.style.animationDuration = duration + "s";
-  s.style.animationDelay = delay + "s";
+  const duration = Math.random() * 30 + 30;
+  const delay = Math.random() * -40;
 
-  overlay.appendChild(s);
-}
+  m.style.left = Math.random() * 100 + "%";
+  m.style.animationDuration = duration + "s";
+  m.style.animationDelay = delay + "s";
 
-/* 🧊 Icicles */
-const icicles = document.getElementById("icicles");
-const ICICLE_COUNT = 28;
-
-for (let i = 0; i < ICICLE_COUNT; i++) {
-  const ic = document.createElement("span");
-  ic.className = "icicle";
-  ic.style.left = `${(i / ICICLE_COUNT) * 100}%`;
-  ic.style.height = Math.random() * 60 + 50 + "px";
-  ic.style.animationDelay = Math.random() * 4 + "s";
-  icicles.appendChild(ic);
+  overlay.appendChild(m);
 }
 </script>
 
