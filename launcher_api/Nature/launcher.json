@@ -1,0 +1,71 @@
+{
+  "launcherVer": 24,
+  "launcherName": "Nature Launcher",
+  "registryPath": "HKCU\\Software\\SAMP",
+  "themeColor": "#ffffff",
+  "launcherUrl": "http://49.231.43.158/NatureLauncher_API/launcher.exe",
+  "launcherLogo": "https://img2.pic.in.th/pic/KongProjectLogo.png",
+  "discordUrl": "https://discord.gg/hDrqWn4j25",
+  "facebookUrl": "https://www.facebook.com/share/1DaTr39egr/",
+  "themeConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.json",
+  "announcements": [],
+  "announcementGlobal": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/announcement.json",
+  "cheatblockerConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/CheatBlocker/cheatblocker.json",
+  "languages": [
+    { "language": "en", "displayName": "English", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/en.json" },
+    { "language": "th", "displayName": "ไทย", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/th.json" }
+  ],
+  "discord": {
+    "clientId": "1438477239355314259",
+    "details": "Main Menu",
+    "state": "Nature Launcher",
+    "largeImageKey": "main",
+    "largeImageText": "Nature Server",
+    "smallImageKey": "kongproject",
+    "smallImageText": "KongProject",
+    "detailsPlaying": "Playing on {gameName}",
+    "statePlaying": "Character: {playerName}",
+    "largeImageTextPlaying": "In Game",
+    "detailsDownloading": "Updating {gameName}",
+    "stateDownloading": "Downloading files...",
+    "largeImageTextDownloading": "Patching...",
+    "detailsMenus": "In the menus",
+    "stateMenus": "Launcher Main Screen",
+    "buttons": [
+      { "label": "Discord", "url": "https://discord.gg/hDrqWn4j25" }
+    ]
+  },
+  "games": [
+	    {
+	      "name": "Nature Town 2.0",
+	      "themeColor": "#ffdd00",
+	      "startCmd": "samp.exe 49.231.43.158:7777",
+	      "DataUrl": "http://49.231.43.158/NatureLauncher_API/data.json",
+	
+	      "clientVer": 1,
+	      "clientUrl": "https://pub-926310bf9c804b08b14509fc3f41b15a.r2.dev/game_base.zip",
+	      "patchUrls": [],
+	      "cheatblockerData": "http://49.231.43.158/NatureLauncher_API/cb.json",
+		  "removeFilesData": "http://49.231.43.158/NatureLauncher_API/remove-list.json",
+	      "enbBaseUrl": "http://49.231.43.158/NatureLauncher_API/enb/",
+	      "enbFiles": [
+	        { "fileName": "enbeffect.fx", "fileMD5": "860BCF2574BD01199CF0DFE2898A5F24" },
+	        { "fileName": "enblocal.ini", "fileMD5": "5FBE36BA9B1AC41541E136E2476D9939" },
+	        { "fileName": "enbseries.asi", "fileMD5": "06950EB8E1A2F04423F1A8E6AE175CE6" },
+	        { "fileName": "enbseries.ini", "fileMD5": "B7E4571AAF381EEC4A4ED9B17098456E" }
+	      ],
+	      "maintenance": false,
+	      "serverIp": "49.231.43.158",
+	      "serverPort": 7777,
+	      "logo": "https://img5.pic.in.th/file/secure-sv1/image6322cbf550b816f8.png",
+	      "banners": [
+			  {
+		        "image": "https://img2.pic.in.th/CheatBlocker-V2.0.1.png",
+		        "title": "CheatBlocker V2.0.1",
+		        "description": "This update enhances protection against unauthorized cheat injection, improving overall security and game integrity."
+		    }
+		  ],
+	      "bannersMoreUrl": "http://49.231.43.158/NatureLauncher_API/banners.json"
+	    }
+  	]
+}
