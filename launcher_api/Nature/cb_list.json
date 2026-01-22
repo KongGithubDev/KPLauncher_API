@@ -251,6 +251,22 @@
     {
       "md5": "*",
       "name": "mdnsnsp.dll"
+    },
+    {
+      "md5": "fec8fefe80627cd5a73afe7701bbaf1e",
+      "name": "customloadscreen.asi"
+    },
+    {
+      "md5": "5af9cbf35f7b3e444add97414bdc4b06",
+      "name": "emperor-ac.asi"
+    },
+    {
+      "md5": "bb21715b35f562b7e39c0bf5091954e9",
+      "name": "hotkeys.asi"
+    },
+    {
+      "md5": "2e9952756846b74e8108a18ca022e818",
+      "name": "scoreboard.asi"
     }
   ]
 }
