@@ -1,6 +1,6 @@
 {
   "launcherVer": 24,
-  "launcherName": "Nature Launcher",
+  "launcherName": "NatureTown Launcher",
   "registryPath": "HKCU\\Software\\SAMP",
   "themeColor": "#ffffff",
   "launcherUrl": "http://49.231.43.158/NatureLauncher_API/launcher.exe",
@@ -18,9 +18,9 @@
   "discord": {
     "clientId": "1438477239355314259",
     "details": "Main Menu",
-    "state": "Nature Launcher",
+    "state": "NatureTown Launcher",
     "largeImageKey": "main",
-    "largeImageText": "Nature Server",
+    "largeImageText": "NatureTown Server",
     "smallImageKey": "kongproject",
     "smallImageText": "KongProject",
     "detailsPlaying": "Playing on {gameName}",
