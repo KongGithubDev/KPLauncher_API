@@ -16,7 +16,7 @@
     { "language": "th", "displayName": "ไทย", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/th.json" }
   ],
   "discord": {
-    "clientId": "1438477239355314259",
+    "clientId": "1463904716982583401",
     "details": "Main Menu",
     "state": "NatureTown Launcher",
     "largeImageKey": "main",
