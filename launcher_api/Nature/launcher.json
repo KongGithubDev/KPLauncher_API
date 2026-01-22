@@ -43,7 +43,7 @@
 	      "DataUrl": "http://49.231.43.158/NatureLauncher_API/data.json",
 	
 	      "clientVer": 1,
-	      "clientUrl": "https://pub-926310bf9c804b08b14509fc3f41b15a.r2.dev/game_base.zip",
+	      "clientUrl": "http://49.231.43.158/NatureLauncher_API/game_base.zip",
 	      "patchUrls": [],
 	      "cheatblockerData": "http://49.231.43.158/NatureLauncher_API/cb.json",
 		  "removeFilesData": "http://49.231.43.158/NatureLauncher_API/remove-list.json",
