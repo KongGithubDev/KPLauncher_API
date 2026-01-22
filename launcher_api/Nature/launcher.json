@@ -10,7 +10,7 @@
   "themeConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.json",
   "announcements": [],
   "announcementGlobal": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/announcement.json",
-  "cheatblockerConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/launcher_api/Nature/cb_list.json",
+  "cheatblockerConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/CheatBlocker/list.json",
   "languages": [
     { "language": "en", "displayName": "English", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/en.json" },
     { "language": "th", "displayName": "ไทย", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/th.json" }
