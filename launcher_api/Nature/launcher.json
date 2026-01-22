@@ -38,7 +38,7 @@
   "games": [
 	    {
 	      "name": "Nature Town 2.0",
-	      "themeColor": "#ffdd00",
+	      "themeColor": "#1320c6",
 	      "startCmd": "samp.exe 49.231.43.158:7777",
 	      "DataUrl": "http://49.231.43.158/NatureLauncher_API/data.json",
 	
