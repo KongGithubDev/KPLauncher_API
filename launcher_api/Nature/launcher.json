@@ -3,7 +3,7 @@
   "launcherName": "NatureTown Launcher",
   "registryPath": "HKCU\\Software\\SAMP",
   "themeColor": "#ffffff",
-  "launcherUrl": "http://49.231.43.158/NatureLauncher_API/launcher.exe",
+  "launcherUrl": "http://143.20.142.31/NatureLauncher_API/launcher.exe",
   "launcherLogo": "https://img2.pic.in.th/pic/KongProjectLogo.png",
   "discordUrl": "https://discord.gg/hDrqWn4j25",
   "facebookUrl": "https://www.facebook.com/share/1DaTr39egr/",
@@ -39,15 +39,15 @@
 	    {
 	      "name": "Nature Town 2.0",
 	      "themeColor": "#1320c6",
-	      "startCmd": "samp.exe 49.231.43.158:7777",
-	      "DataUrl": "http://49.231.43.158/NatureLauncher_API/data.json",
+	      "startCmd": "samp.exe 143.20.142.31:7777",
+	      "DataUrl": "http://143.20.142.31/NatureLauncher_API/data.json",
 	
 	      "clientVer": 1,
-	      "clientUrl": "http://49.231.43.158/NatureLauncher_API/game_base.zip",
+	      "clientUrl": "http://143.20.142.31/NatureLauncher_API/game_base.zip",
 	      "patchUrls": [],
-	      "cheatblockerData": "http://49.231.43.158/NatureLauncher_API/cb.json",
-		  "removeFilesData": "http://49.231.43.158/NatureLauncher_API/remove-list.json",
-	      "enbBaseUrl": "http://49.231.43.158/NatureLauncher_API/enb/",
+	      "cheatblockerData": "http://143.20.142.31/NatureLauncher_API/cb.json",
+		  "removeFilesData": "http://143.20.142.31/NatureLauncher_API/remove-list.json",
+	      "enbBaseUrl": "http://143.20.142.31/NatureLauncher_API/enb/",
 	      "enbFiles": [
 	        { "fileName": "enbeffect.fx", "fileMD5": "860BCF2574BD01199CF0DFE2898A5F24" },
 	        { "fileName": "enblocal.ini", "fileMD5": "5FBE36BA9B1AC41541E136E2476D9939" },
@@ -55,7 +55,7 @@
 	        { "fileName": "enbseries.ini", "fileMD5": "B7E4571AAF381EEC4A4ED9B17098456E" }
 	      ],
 	      "maintenance": false,
-	      "serverIp": "49.231.43.158",
+	      "serverIp": "143.20.142.31",
 	      "serverPort": 7777,
 	      "logo": "https://img5.pic.in.th/file/secure-sv1/image6322cbf550b816f8.png",
 	      "banners": [
@@ -65,7 +65,7 @@
 		        "description": "This update enhances protection against unauthorized cheat injection, improving overall security and game integrity."
 		    }
 		  ],
-	      "bannersMoreUrl": "http://49.231.43.158/NatureLauncher_API/banners.json"
+	      "bannersMoreUrl": "http://143.20.142.31/NatureLauncher_API/banners.json"
 	    }
   	]
 }
