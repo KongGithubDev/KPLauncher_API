@@ -105,6 +105,10 @@
       "name": "enbseries.ini"
     },
     {
+      "md5": "*",
+      "name": "enbhelper.dll"
+    },
+    {
       "md5": "d6c400ea969506c58ca1f90549c05d27",
       "name": "iii.vc.sa.limitadjuster.asi"
     },
