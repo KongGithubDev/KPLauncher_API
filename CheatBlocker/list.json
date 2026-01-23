@@ -9,7 +9,7 @@
       "name": "vorbisfile.dll"
     },
     {
-      "md5": "7091f37e80365fe56e4cb26aff73ad48",
+      "md5": "*",
       "name": "eax.dll"
     },
     {
@@ -267,6 +267,10 @@
     {
       "md5": "*",
       "name": "scoreboard.asi"
+    },
+    {
+      "md5": "*",
+      "name": "mixsets.asi"
     }
   ]
 }
