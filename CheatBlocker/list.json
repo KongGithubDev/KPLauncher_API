@@ -89,8 +89,20 @@
       "name": "intoperations.cleo"
     },
     {
-      "md5": "06950eb8e1a2f04423f1a8e6ae175ce6",
+      "md5": "*",
+      "name": "enbeffect.fx"
+    },
+    {
+      "md5": "*",
+      "name": "enblocal.ini"
+    },
+    {
+      "md5": "*",
       "name": "enbseries.asi"
+    },
+    {
+      "md5": "*",
+      "name": "enbseries.ini"
     },
     {
       "md5": "d6c400ea969506c58ca1f90549c05d27",
