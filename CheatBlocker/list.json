@@ -73,19 +73,19 @@
       "name": "audio.asi"
     },
     {
-      "md5": "d229ef391e1777fccdbd639ced98adf8",
+      "md5": "*",
       "name": "cleo.asi"
     },
     {
-      "md5": "dd32e5056f698a9b20f4067d478dc208",
+      "md5": "*",
       "name": "filesystemoperations.cleo"
     },
     {
-      "md5": "08380cf67b1f269adff0cad2d896da17",
+      "md5": "*",
       "name": "inifiles.cleo"
     },
     {
-      "md5": "c0d7ef028aef3ed6308be8a096bc1302",
+      "md5": "*",
       "name": "intoperations.cleo"
     },
     {
