@@ -145,7 +145,7 @@
       "name": "sampgraphicrestore.asi"
     },
     {
-      "md5": "6af8fe5539635e837f746ad576f8f192",
+      "md5": "*",
       "name": "sampvoice.asi"
     },
     {
@@ -287,6 +287,26 @@
     {
       "md5": "*",
       "name": "mixsets.asi"
+    },
+    {
+      "md5": "*",
+      "name": "cef.asi"
+    },
+    {
+      "md5": "*",
+      "name": "client.dll"
+    },
+    {
+      "md5": "*",
+      "name": "libcef.dll"
+    },
+    {
+      "md5": "*",
+      "name": "chrome_elf.dll"
+    },
+    {
+      "md5": "*",
+      "name": "cef_interface.dll"
     }
   ]
 }
