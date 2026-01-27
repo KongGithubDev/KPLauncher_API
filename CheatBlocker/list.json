@@ -22,6 +22,10 @@
     },
     {
       "md5": "*",
+      "name": "kplauncherui.asi"
+    },
+    {
+      "md5": "*",
       "name": "lua51.dll"
     },
     {
