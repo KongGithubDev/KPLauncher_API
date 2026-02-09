@@ -43,7 +43,7 @@
 	      "DataUrl": "http://168.222.20.92/NatureLauncher_API/data.json",
 	
 	      "clientVer": 1,
-	      "clientUrl": "http://168.222.20.92/NatureLauncher_API/game_base.zip",
+	      "clientUrl": "http://168.222.20.92/AngelLauncher_API/game_base.zip",
 	      "patchUrls": [],
 	      "cheatblockerData": "http://168.222.20.92/AngelLauncher_API/cb.json",
 		  "removeFilesData": "http://168.222.20.92/AngelLauncher_API/remove-list.json",
