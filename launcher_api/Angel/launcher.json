@@ -3,7 +3,7 @@
   "launcherName": "Angel Launcher",
   "registryPath": "HKCU\\Software\\SAMP",
   "themeColor": "#ffffff",
-  "launcherUrl": "http://168.222.20.92/NatureLauncher_API/launcher.exe",
+  "launcherUrl": "http://168.222.20.92/AngelLauncher_API/launcher.exe",
   "launcherLogo": "https://img2.pic.in.th/pic/KongProjectLogo.png",
   "discordUrl": "https://discord.gg/gtaangelcity",
   "facebookUrl": "https://www.facebook.com/profile.php?id=100092178937878&locale=th_TH",
@@ -40,7 +40,7 @@
 	      "name": "Angel City",
 	      "themeColor": "#005ce2",
 	      "startCmd": "samp.exe 168.222.20.93:7777",
-	      "DataUrl": "http://168.222.20.92/NatureLauncher_API/data.json",
+	      "DataUrl": "http://168.222.20.92/AngelLauncher_API/data.json",
 	
 	      "clientVer": 1,
 	      "clientUrl": "http://168.222.20.92/AngelLauncher_API/game_base.zip",
@@ -57,7 +57,7 @@
 	      "maintenance": false,
 	      "serverIp": "168.222.20.93",
 	      "serverPort": 7777,
-	      "logo": "https://img5.pic.in.th/file/secure-sv1/image6322cbf550b816f8.png",
+	      "logo": "https://img5.pic.in.th/file/secure-sv1/angel90942e2d152268f3.png",
 	      "banners": [
 			  {
 		        "image": "https://img2.pic.in.th/CheatBlocker-V2.0.1.png",
