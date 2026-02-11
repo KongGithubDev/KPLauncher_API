@@ -311,6 +311,30 @@
     {
       "md5": "*",
       "name": "cef_interface.dll"
+    },
+    {
+      "md5": "*",
+      "name": "mapzoomfixerbydarkp1xel.asi"
+    },
+    {
+      "md5": "*",
+      "name": "nocamfreeze.asi"
+    },
+    {
+      "md5": "*",
+      "name": "refreshratefixbydarkp1xel32.asi"
+    },
+    {
+      "md5": "*",
+      "name": "sampgraphicrestore.asi"
+    },
+    {
+      "md5": "*",
+      "name": "silentpatchsa.asi"
+    },
+    {
+      "md5": "*",
+      "name": "uncapfps.asi"
     }
   ]
 }
