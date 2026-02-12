@@ -40,7 +40,7 @@
 	      "name": "Angel City",
 	      "themeColor": "#005ce2",
 	      "startCmd_COMMENT": "samp.exe 168.222.20.93:7777 -z lAIP5dhWXn4eQ9PoQkoUYA==:gKsuDIOlsTVjoXIfl8/J5w== -c",
-	      "startCmd": "samp-injector -z lAIP5dhWXn4eQ9PoQkoUYA==:gKsuDIOlsTVjoXIfl8/J5w== -c",
+	      "startCmd": "samp-injector.exe -z lAIP5dhWXn4eQ9PoQkoUYA==:gKsuDIOlsTVjoXIfl8/J5w== -c",
 	      "DataUrl": "http://168.222.20.92/AngelLauncher_API/data.json",
 	
 	      "clientVer": 1,
