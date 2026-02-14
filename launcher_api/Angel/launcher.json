@@ -1,5 +1,5 @@
 {
-  "launcherVer": 35,
+  "launcherVer": 36,
   "launcherName": "Angel Launcher",
   "registryPath": "HKCU\\Software\\SAMP",
   "themeColor": "#ffffff",
@@ -61,8 +61,8 @@
 	      "logo": "https://img5.pic.in.th/file/secure-sv1/angel90942e2d152268f3.png",
 	      "banners": [
 			  {
-		        "image": "https://img2.pic.in.th/CheatBlocker-V2.0.1.png",
-		        "title": "CheatBlocker V2.0.1",
+		        "image": "https://img5.pic.in.th/file/secure-sv1/CBV2.0.2.png",
+		        "title": "CheatBlocker V2.0.2",
 		        "description": "This update enhances protection against unauthorized cheat injection, improving overall security and game integrity."
 		    }
 		  ],
