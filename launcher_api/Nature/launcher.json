@@ -1,5 +1,5 @@
 {
-  "launcherVer": 28,
+  "launcherVer": 36,
   "launcherName": "NatureTown Launcher",
   "registryPath": "HKCU\\Software\\SAMP",
   "themeColor": "#ffffff",
@@ -60,8 +60,8 @@
 	      "logo": "https://img5.pic.in.th/file/secure-sv1/image6322cbf550b816f8.png",
 	      "banners": [
 			  {
-		        "image": "https://img2.pic.in.th/CheatBlocker-V2.0.1.png",
-		        "title": "CheatBlocker V2.0.1",
+		        "image": "https://img5.pic.in.th/file/secure-sv1/CBV2.0.2.png",
+		        "title": "CheatBlocker V2.0.2",
 		        "description": "This update enhances protection against unauthorized cheat injection, improving overall security and game integrity."
 		    }
 		  ],
