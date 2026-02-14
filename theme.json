@@ -1,14 +1,23 @@
 {
-  "themeColor": "#2EA8E6",
-  "backgroundOpacity": 0.85,
+  "themeName": "Theme 15/02/2569",
+  "themeType": "Post-Valentine Calm",
+  "themeColor": "#FF9A8B",
+
+  "backgroundOpacity": 0.92,
 
   "overlayUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.html",
-  "overlayOpacity": 0.9,
+  "overlayOpacity": 0.85,
 
   "customStyles": {
-    "--bg-primary": "#08131a",
-    "--bg-secondary": "#0b1b24",
-    "--theme-accent": "#2EA8E6",
-    "--theme-accent-glow": "rgba(46,168,230,0.15)"
+    "--bg-primary": "#14161c",
+    "--bg-secondary": "#1c1f28",
+    "--theme-accent": "#FF9A8B",
+    "--theme-accent-glow": "rgba(255,154,139,0.18)",
+
+    "--text-primary": "#ffffff",
+    "--text-secondary": "#b8c0cc",
+
+    "--card-bg": "rgba(255,255,255,0.04)",
+    "--card-border": "rgba(255,255,255,0.08)"
   }
 }
