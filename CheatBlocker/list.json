@@ -2,11 +2,7 @@
   "modules": [
     {
       "name": "gta_sa.exe",
-      "md5": [
-        "b2dcae3010bd76d22d6f2c40fc73534c",
-        "2b5066bd4097ac2944ce6a9cf8fe5677",
-        "170b3a9108687b26da2d8901c6948a18"
-      ]
+      "md5": "*"
     },
     {
       "name": "eax.dll",
