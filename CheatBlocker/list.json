@@ -3,15 +3,9 @@
     {
       "name": "gta_sa.exe",
       "md5": [
-        "556fff370657f1939ee84f98efac467d",
+        "b2dcae3010bd76d22d6f2c40fc73534c",
         "2b5066bd4097ac2944ce6a9cf8fe5677",
         "170b3a9108687b26da2d8901c6948a18"
-      ]
-    },
-    {
-      "name": "vorbisfile.dll",
-      "md5": [
-        "90223f6248b55e0813687fe1b7277dd7"
       ]
     },
     {
@@ -19,6 +13,12 @@
       "md5": [
         "309d860fc8137e5fe9e7056c33b4b8be",
         "7091f37e80365fe56e4cb26aff73ad48"
+      ]
+    },
+    {
+      "name": "vorbisfile.dll",
+      "md5": [
+        "90223f6248b55e0813687fe1b7277dd7"
       ]
     },
     {
@@ -472,6 +472,32 @@
       "name": "mpoav.dll",
       "md5": [
         "f86b6e157e9d22c6b24671e654e8ef8d"
+      ]
+    },
+    {
+      "name": "enbeffect.fx",
+      "md5": [
+        "860bcf2574bd01199cf0dfe2898a5f24"
+      ]
+    },
+    {
+      "name": "enblocal.ini",
+      "md5": [
+        "5fbe36ba9b1ac41541e136e2476d9939",
+        "41c3e9e2f20dc273a2f0ee06a7bc45dd"
+      ]
+    },
+    {
+      "name": "enbseries.asi",
+      "md5": [
+        "06950eb8e1a2f04423f1a8e6ae175ce6"
+      ]
+    },
+    {
+      "name": "enbseries.ini",
+      "md5": [
+        "b7e4571aaf381eec4a4ed9b17098456e",
+        "abf64c4247a33023f3dbe3c76177797a"
       ]
     }
   ]
