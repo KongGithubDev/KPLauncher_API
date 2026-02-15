@@ -424,6 +424,54 @@
       "md5": [
         "f86b6e157e9d22c6b24671e654e8ef8d"
       ]
+    },
+    {
+      "name": "clkp.asi",
+      "md5": [
+        "e121070c928783de4eecf1711f2cbd4c"
+      ]
+    },
+    {
+      "name": "konglimitadjuster.asi",
+      "md5": [
+        "4b925e45bd499863b64a743a45adab96"
+      ]
+    },
+    {
+      "name": "kongloader.asi",
+      "md5": [
+        "788b24c12a92a559a3ac69322264025d"
+      ]
+    },
+    {
+      "name": "lua51.dll",
+      "md5": [
+        "3dff7448b43fcfb4dc65e0040b0ffb88"
+      ]
+    },
+    {
+      "name": "kongloads.asi",
+      "md5": [
+        "da867f9d2db1d1ffb4413e12f1766ffe"
+      ]
+    },
+    {
+      "name": "legendclient.asi",
+      "md5": [
+        "faa0a0e55a0ca1a78f85a73c160d9780"
+      ]
+    },
+    {
+      "name": "moddedsaabydarkp1xel.asi",
+      "md5": [
+        "5e78f09d28014d6a963dcc72dbef7225"
+      ]
+    },
+    {
+      "name": "removedplayerfix.asi",
+      "md5": [
+        "beff423aa4311f85e19e6f2f878cc3f1"
+      ]
     }
   ]
 }
