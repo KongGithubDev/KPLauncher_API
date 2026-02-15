@@ -8,6 +8,7 @@
   "discordUrl": "https://discord.gg/x594Tyhc7h",
   "facebookUrl": "https://www.facebook.com/profile.php?id=61558318001230&mibextid=LQQJ4d",
   "themeConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.json",
+  "cheatblockerConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/CheatBlocker/list.json",
   "announcements": [],
   "announcementGlobal": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/announcement.json",
   "languages": [
@@ -58,7 +59,13 @@
 	      "serverIp": "ip.samp-legend.net",
 	      "serverPort": 7777,
 	      "logo": "https://img5.pic.in.th/file/secure-sv1/Logo_Legend_New1.png",
-	      "banners": [],
+	      "banners": [
+			  {
+		        "image": "https://img5.pic.in.th/file/secure-sv1/CBV2.0.2.png",
+		        "title": "CheatBlocker V2.0.2",
+		        "description": "This update enhances protection against unauthorized cheat injection, improving overall security and game integrity."
+		    }
+		  ],
 	      "bannersMoreUrl": "http://samp-legend.net/legendlauncher-api/banners.json"
 	    }
   	]
