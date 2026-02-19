@@ -1,5 +1,5 @@
 {
-  "launcherVer": 20,
+  "launcherVer": 36,
   "launcherName": "Pawria Launcher",
   "registryPath": "HKCU\\Software\\SAMP",
   "themeColor": "#ffffff",
@@ -8,6 +8,7 @@
   "discordUrl": "https://discord.gg/gtavem",
   "facebookUrl": "https://www.facebook.com/samp.fivem",
   "themeConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.json",
+  "cheatblockerConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/CheatBlocker/cheatblocker.json",
   "languages": [
     { "language": "en", "displayName": "English", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/en.json" },
     { "language": "th", "displayName": "ไทย", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/th.json" }
@@ -58,8 +59,8 @@
 	      "logo": "https://img2.pic.in.th/newlogo-1.png",
 	      "banners": [
 			  {
-		        "image": "https://img2.pic.in.th/CheatBlocker-V2.0.1.png",
-		        "title": "CheatBlocker V2.0.1",
+		        "image": "https://img5.pic.in.th/file/secure-sv1/CBV2.0.2.png",
+		        "title": "CheatBlocker V2.0.2",
 		        "description": "This update enhances protection against unauthorized cheat injection, improving overall security and game integrity."
 		    }
 		  ],
