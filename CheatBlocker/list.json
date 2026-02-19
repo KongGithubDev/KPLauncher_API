@@ -220,9 +220,28 @@
       ]
     },
     {
-      "name": "audio.asi",
+      "name": "cleo.asi",
       "md5": [
-        "9e4e513a8e8f587e4475476c5a446ff2"
+        "d229ef391e1777fccdbd639ced98adf8",
+        "05f8b2dbf55a80b2d4e6b51db3b3bbee"
+      ]
+    },
+    {
+      "name": "filesystemoperations.cleo",
+      "md5": [
+        "dd32e5056f698a9b20f4067d478dc208"
+      ]
+    },
+    {
+      "name": "inifiles.cleo",
+      "md5": [
+        "08380cf67b1f269adff0cad2d896da17"
+      ]
+    },
+    {
+      "name": "intoperations.cleo",
+      "md5": [
+        "c0d7ef028aef3ed6308be8a096bc1302"
       ]
     },
     {
@@ -245,6 +264,18 @@
       ]
     },
     {
+      "name": "dsound.dll",
+      "md5": [
+        "aaf486d213925ebaca01493f11c1cbba"
+      ]
+    },
+    {
+      "name": "audio.asi",
+      "md5": [
+        "9e4e513a8e8f587e4475476c5a446ff2"
+      ]
+    },
+    {
       "name": "nodep.asi",
       "md5": [
         "9ecd4f280066f0148e55add186996a8a"
@@ -261,12 +292,6 @@
       "name": "streammemfix.asi",
       "md5": [
         "2e8712c56f19f92f7f74f2d0c76f9c5f"
-      ]
-    },
-    {
-      "name": "dsound.dll",
-      "md5": [
-        "aaf486d213925ebaca01493f11c1cbba"
       ]
     },
     {
@@ -348,36 +373,10 @@
       ]
     },
     {
-      "name": "cleo.asi",
-      "md5": [
-        "05f8b2dbf55a80b2d4e6b51db3b3bbee",
-        "d229ef391e1777fccdbd639ced98adf8"
-      ]
-    },
-    {
-      "name": "filesystemoperations.cleo",
-      "md5": [
-        "dd32e5056f698a9b20f4067d478dc208"
-      ]
-    },
-    {
-      "name": "inifiles.cleo",
-      "md5": [
-        "08380cf67b1f269adff0cad2d896da17"
-      ]
-    },
-    {
-      "name": "intoperations.cleo",
-      "md5": [
-        "c0d7ef028aef3ed6308be8a096bc1302"
-      ]
-    },
-    {
       "name": "kplauncher.asi",
       "md5": [
         "f384c3969929813d5e9d789a3e1198a3",
-        "7e17861a30b361254cf0a27c90ba4281",
-        "910594fa47804b33b0b34b20ae8ebe5e"
+        "7e17861a30b361254cf0a27c90ba4281"
       ]
     },
     {
