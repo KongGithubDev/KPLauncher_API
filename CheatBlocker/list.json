@@ -448,15 +448,21 @@
       ]
     },
     {
+      "name": "emperor-ac.asi",
+      "md5": [
+        "40627cdacfeefec81a8628d50b771cd1"
+      ]
+    },
+    {
       "name": "cef_interface.dll",
       "md5": [
         "dea443fa6ffecb3694189314beeae15b"
       ]
     },
     {
-      "name": "emperor-ac.asi",
+      "name": "fixes.asi",
       "md5": [
-        "40627cdacfeefec81a8628d50b771cd1"
+        "552255102cc9bdd417505dfdfc6793f9"
       ]
     },
     {
