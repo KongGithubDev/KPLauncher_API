@@ -5,14 +5,13 @@
 
 <style>
 :root{
-  --bg1:#071029;
-  --bg2:#0f2540;
-  --bg3:#14273a;
+  --bg1:#04060c;
+  --bg2:#081424;
+  --bg3:#0e2238;
 
-  --mint:#66e0c3;
-  --peach:#ff9a8b;
-
-  --mint-soft:rgba(102,224,195,0.12);
+  --aurora1:#6ee7b7;
+  --aurora2:#60a5fa;
+  --aurora3:#c084fc;
 }
 
 *{margin:0;padding:0;box-sizing:border-box}
@@ -22,105 +21,102 @@ html,body{
   overflow:hidden;
 }
 
-/* ===== BACKGROUND ===== */
+/* ===== BASE SKY ===== */
 body{
-  background:linear-gradient(
-    120deg,
-    var(--bg1),
-    var(--bg2),
-    var(--bg3)
-  );
-  background-size:300% 300%;
-  animation:bgMove 28s ease-in-out infinite;
+  background:
+    radial-gradient(circle at 30% 20%, #0f1f35, transparent 45%),
+    linear-gradient(160deg,var(--bg1),var(--bg2),var(--bg3));
+  background-size:200% 200%;
+  animation:bgMove 35s ease infinite;
 }
 
 @keyframes bgMove{
   0%{background-position:0% 50%}
-  50%{background-position:100% 40%}
+  50%{background-position:100% 50%}
   100%{background-position:0% 50%}
 }
 
-/* ===== SOFT AMBIENT LIGHT ===== */
-.ambient{
+/* ===== AURORA LAYERS ===== */
+.aurora{
   position:fixed;
-  inset:0;
-  pointer-events:none;
+  inset:-20%;
+  filter:blur(60px);
+  opacity:.45;
+  mix-blend-mode:screen;
+  animation:auroraFlow linear infinite;
+}
+
+.layer1{
   background:
-    radial-gradient(circle at 15% 20%, var(--mint-soft), transparent 45%),
-    radial-gradient(circle at 80% 45%, rgba(255,154,139,0.08), transparent 50%);
-  animation:ambientPulse 10s ease-in-out infinite;
+    radial-gradient(60% 40% at 40% 60%, var(--aurora1), transparent 70%);
+  animation-duration:38s;
 }
 
-@keyframes ambientPulse{
-  0%,100%{opacity:.75}
-  50%{opacity:1}
+.layer2{
+  background:
+    radial-gradient(50% 35% at 70% 40%, var(--aurora2), transparent 70%);
+  animation-duration:52s;
 }
 
-/* ===== PARTICLES ===== */
+.layer3{
+  background:
+    radial-gradient(55% 40% at 30% 30%, var(--aurora3), transparent 70%);
+  animation-duration:60s;
+}
+
+@keyframes auroraFlow{
+  0%{transform:translateX(-5%) translateY(0)}
+  50%{transform:translateX(5%) translateY(-3%)}
+  100%{transform:translateX(-5%) translateY(0)}
+}
+
+/* ===== SOFT PARTICLE DUST ===== */
 .overlay{
   position:fixed;
   inset:0;
   pointer-events:none;
-  overflow:hidden;
 }
 
-.light{
+.dust{
   position:absolute;
+  width:2px;
+  height:2px;
+  background:white;
   border-radius:50%;
-  filter:blur(1px);
-  mix-blend-mode:screen;
-  animation:floatUp linear infinite;
+  opacity:.5;
+  animation:dustFloat linear infinite;
 }
 
-.light.mint{
-  background:var(--mint);
-}
-
-.light.peach{
-  background:var(--peach);
-}
-
-@keyframes floatUp{
-  0%{
-    transform:translateY(0) scale(.8);
-    opacity:0;
-  }
-  15%{opacity:.8}
-  100%{
-    transform:translateY(-110vh) scale(1.3);
-    opacity:0;
-  }
+@keyframes dustFloat{
+  0%{transform:translateY(0);opacity:0}
+  20%{opacity:.6}
+  100%{transform:translateY(-120vh);opacity:0}
 }
 </style>
 </head>
 
 <body>
 
-<div class="ambient"></div>
+<div class="aurora layer1"></div>
+<div class="aurora layer2"></div>
+<div class="aurora layer3"></div>
+
 <div class="overlay" id="overlay"></div>
 
 <script>
 const overlay=document.getElementById("overlay");
-
-/* ลดจำนวนเพื่อให้ smooth */
-const COUNT=32;
+const COUNT=40;
 
 for(let i=0;i<COUNT;i++){
-  const l=document.createElement("div");
+  const d=document.createElement("div");
+  d.className="dust";
 
-  l.className="light "+(Math.random()<0.7?"mint":"peach");
+  d.style.left=Math.random()*100+"%";
+  d.style.bottom="-10px";
+  d.style.animationDuration=(Math.random()*25+20)+"s";
+  d.style.animationDelay=(Math.random()*-30)+"s";
 
-  const size=Math.random()*6+2;
-
-  l.style.width=size+"px";
-  l.style.height=size+"px";
-  l.style.left=Math.random()*100+"%";
-  l.style.bottom="-20px";
-
-  l.style.animationDuration=(Math.random()*18+14)+"s";
-  l.style.animationDelay=(Math.random()*-25)+"s";
-
-  overlay.appendChild(l);
+  overlay.appendChild(d);
 }
 </script>
 
