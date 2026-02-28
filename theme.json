@@ -1,20 +1,43 @@
 {
   "themeName": "Theme 28/02/2569",
-  "themeType": "Calm Twilight Background",
-  "themeColor": "#66E0C3",
-  "backgroundOpacity": 0.95,
+  "themeType": "Aurora Calm Night",
+  "themeVersion": "1.0",
+
+  "themeColor": "#6EE7B7",
+  "accentSecondary": "#60A5FA",
+
+  "backgroundOpacity": 0.96,
+
   "overlayUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.html",
-  "overlayOpacity": 0.85,
+  "overlayOpacity": 0.88,
+
+  "blurStrength": 12,
+  "contrastBoost": 1.05,
+
   "customStyles": {
-    "--bg-primary": "#071029",
-    "--bg-secondary": "#0f2540",
-    "--theme-accent": "#66E0C3",
-    "--theme-accent-soft": "rgba(102,224,195,0.12)",
+    "--bg-primary": "#04060c",
+    "--bg-secondary": "#081424",
+    "--bg-tertiary": "#0e2238",
 
-    "--text-primary": "#ffffff",
-    "--text-secondary": "#a9b6c5",
+    "--theme-accent": "#6EE7B7",
+    "--theme-accent-alt": "#60A5FA",
+    "--theme-accent-glow": "rgba(110,231,183,0.18)",
 
-    "--card-bg": "rgba(255,255,255,0.03)",
-    "--card-border": "rgba(255,255,255,0.06)"
+    "--text-primary": "#EAF4FF",
+    "--text-secondary": "#9FB3C8",
+    "--text-muted": "#6B8299",
+
+    "--card-bg": "rgba(255,255,255,0.035)",
+    "--card-border": "rgba(255,255,255,0.07)",
+
+    "--glass-bg": "rgba(10,20,35,0.55)",
+    "--glass-blur": "14px"
+  },
+
+  "uiTweaks": {
+    "iconGlow": true,
+    "softShadows": true,
+    "roundedUI": true,
+    "reduceAnimationWhenLowPower": true
   }
 }
