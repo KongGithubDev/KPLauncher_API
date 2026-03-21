@@ -1,37 +1,37 @@
 {
-  "themeName": "Theme 28/02/2569",
-  "themeType": "Aurora Calm Night",
-  "themeVersion": "1.0",
+  "themeName": "Theme Songkran Festival",
+  "themeType": "Songkran Floral Splash",
+  "themeVersion": "1.2",
 
-  "themeColor": "#6EE7B7",
-  "accentSecondary": "#60A5FA",
+  "themeColor": "#38BDF8",
+  "accentSecondary": "#FB7185",
 
-  "backgroundOpacity": 0.96,
+  "backgroundOpacity": 0.98,
 
   "overlayUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.html",
-  "overlayOpacity": 0.88,
+  "overlayOpacity": 0.92,
 
-  "blurStrength": 12,
-  "contrastBoost": 1.05,
+  "blurStrength": 8,
+  "contrastBoost": 1.04,
 
   "customStyles": {
-    "--bg-primary": "#04060c",
-    "--bg-secondary": "#081424",
-    "--bg-tertiary": "#0e2238",
+    "--bg-primary": "#0b2740",
+    "--bg-secondary": "#15476b",
+    "--bg-tertiary": "#1d5f87",
 
-    "--theme-accent": "#6EE7B7",
-    "--theme-accent-alt": "#60A5FA",
-    "--theme-accent-glow": "rgba(110,231,183,0.18)",
+    "--theme-accent": "#38BDF8",
+    "--theme-accent-alt": "#FB7185",
+    "--theme-accent-glow": "rgba(56,189,248,0.22)",
 
-    "--text-primary": "#EAF4FF",
-    "--text-secondary": "#9FB3C8",
-    "--text-muted": "#6B8299",
+    "--text-primary": "#F8FCFF",
+    "--text-secondary": "#D5E8F5",
+    "--text-muted": "#93B6CB",
 
-    "--card-bg": "rgba(255,255,255,0.035)",
-    "--card-border": "rgba(255,255,255,0.07)",
+    "--card-bg": "rgba(255,255,255,0.06)",
+    "--card-border": "rgba(255,255,255,0.10)",
 
-    "--glass-bg": "rgba(10,20,35,0.55)",
-    "--glass-blur": "14px"
+    "--glass-bg": "rgba(11,39,64,0.42)",
+    "--glass-blur": "12px"
   },
 
   "uiTweaks": {
