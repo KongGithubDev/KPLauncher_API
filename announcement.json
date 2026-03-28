@@ -1,3 +1,10 @@
 {
-  "announcements": []
+  "announcements": [
+    {
+      "id": "cleo_security_update_2026",
+      "type": "warning",
+      "layout": "modal-text",
+      "message": "มีการอัปเดตระบบความปลอดภัย CheatBlocker นอก PATCH [วันที่ 28 มีนาคม 2569]\nหากคุณเป็นผู้ดูแลเซิฟเวอร์แล้วพบว่าเกิดข้อผิดพลาด โปรดติดต่อผู้ดูแล Launcher"
+    }
+  ]
 }
