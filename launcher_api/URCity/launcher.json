@@ -1,9 +1,9 @@
 {
-  "launcherVer": 36,
+  "launcherVer": 1037,
   "launcherName": "URCity Launcher",
   "registryPath": "HKCU\\Software\\SAMP",
   "themeColor": "#ffffff",
-  "launcherUrl": "http://168.222.20.228/URCityLauncher_API/launcher.exe",
+  "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/download/v1.0.37/URCityLauncher.exe",
   "launcherLogo": "https://img2.pic.in.th/pic/KongProjectLogo.png",
   "discordUrl": "https://discord.gg/jrAfUwpZzQ",
   "facebookUrl": "https://www.facebook.com/share/1DGKdBDwsH/?mibextid=wwXIfr",
@@ -12,8 +12,16 @@
   "announcementGlobal": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/announcement.json",
   "cheatblockerConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/CheatBlocker/cheatblocker.json",
   "languages": [
-    { "language": "en", "displayName": "English", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/en.json" },
-    { "language": "th", "displayName": "ไทย", "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/th.json" }
+    {
+      "language": "en",
+      "displayName": "English",
+      "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/en.json"
+    },
+    {
+      "language": "th",
+      "displayName": "ไทย",
+      "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/th.json"
+    }
   ],
   "discord": {
     "clientId": "1438477239355314259",
@@ -32,40 +40,54 @@
     "detailsMenus": "In the menus",
     "stateMenus": "Launcher Main Screen",
     "buttons": [
-      { "label": "Discord", "url": "https://discord.gg/jrAfUwpZzQ" }
+      {
+        "label": "Discord",
+        "url": "https://discord.gg/jrAfUwpZzQ"
+      }
     ]
   },
   "games": [
-	    {
-	      "name": "URCity",
-	      "themeColor": "#ffdd00",
-	      "startCmd": "samp.exe 168.222.20.193:7777",
-	      "DataUrl": "http://168.222.20.228/URCityLauncher_API/data.json",
-	
-	      "clientVer": 1,
-	      "clientUrl": "https://pub-926310bf9c804b08b14509fc3f41b15a.r2.dev/URCity.zip",
-	      "patchUrls": [],
-	      "cheatblockerData": "http://168.222.20.228/URCityLauncher_API/cb.json",
-		  "removeFilesData": "http://168.222.20.228/URCityLauncher_API/remove-list.json",
-	      "enbBaseUrl": "http://168.222.20.228/URCityLauncher_API/enb/",
-	      "enbFiles": [
-	        { "fileName": "enbeffect.fx", "fileMD5": "860BCF2574BD01199CF0DFE2898A5F24" },
-	        { "fileName": "enblocal.ini", "fileMD5": "5FBE36BA9B1AC41541E136E2476D9939" },
-	        { "fileName": "enbseries.asi", "fileMD5": "06950EB8E1A2F04423F1A8E6AE175CE6" },
-	        { "fileName": "enbseries.ini", "fileMD5": "B7E4571AAF381EEC4A4ED9B17098456E" }
-	      ],
-	      "maintenance": false,
-	      "serverIp": "168.222.20.193",
-	      "serverPort": 7777,
-	      "logo": "https://img2.pic.in.th/pic/logo8c2b042b2aaa6576.png",
-	      "banners": [
-			  {
-		        "image": "https://img2.pic.in.th/CB-V2.0.3.png",
-		        "title": "CheatBlocker V2.0.3",
-		        "description": "This update enhances protection against unauthorized cheat injection, improving overall security and game integrity."
-		    }
-		  ],
-	      "bannersMoreUrl": "http://168.222.20.228/URCityLauncher_API/banners.json"
-	    }
-  	]
+    {
+      "name": "URCity",
+      "themeColor": "#ffdd00",
+      "startCmd": "samp.exe 168.222.20.193:7777",
+      "DataUrl": "http://168.222.20.228/URCityLauncher_API/data.json",
+      "clientVer": 1,
+      "clientUrl": "https://pub-926310bf9c804b08b14509fc3f41b15a.r2.dev/URCity.zip",
+      "patchUrls": [],
+      "cheatblockerData": "http://168.222.20.228/URCityLauncher_API/cb.json",
+      "removeFilesData": "http://168.222.20.228/URCityLauncher_API/remove-list.json",
+      "enbBaseUrl": "http://168.222.20.228/URCityLauncher_API/enb/",
+      "enbFiles": [
+        {
+          "fileName": "enbeffect.fx",
+          "fileMD5": "860BCF2574BD01199CF0DFE2898A5F24"
+        },
+        {
+          "fileName": "enblocal.ini",
+          "fileMD5": "5FBE36BA9B1AC41541E136E2476D9939"
+        },
+        {
+          "fileName": "enbseries.asi",
+          "fileMD5": "06950EB8E1A2F04423F1A8E6AE175CE6"
+        },
+        {
+          "fileName": "enbseries.ini",
+          "fileMD5": "B7E4571AAF381EEC4A4ED9B17098456E"
+        }
+      ],
+      "maintenance": false,
+      "serverIp": "168.222.20.193",
+      "serverPort": 7777,
+      "logo": "https://img2.pic.in.th/pic/logo8c2b042b2aaa6576.png",
+      "banners": [
+        {
+          "image": "https://img2.pic.in.th/CB-V2.0.3.png",
+          "title": "CheatBlocker V2.0.3",
+          "description": "This update enhances protection against unauthorized cheat injection, improving overall security and game integrity."
+        }
+      ],
+      "bannersMoreUrl": "http://168.222.20.228/URCityLauncher_API/banners.json"
+    }
+  ]
 }
