@@ -522,6 +522,48 @@
       "md5": [
         "7e1f885f558a9e5fc005860774d2c2ca"
       ]
+    },
+    {
+      "name": "sa.manualdrivebyremake.cs",
+      "md5": [
+        "05dc0941aed879bd74bd2d1014adb2e6"
+      ]
+    },
+    {
+      "name": "anticrasher037.cs",
+      "md5": [
+        "b1f05747f3f2c601a348508c9a48cc89"
+      ]
+    },
+    {
+      "name": "cleo_fast_connect_0_3_7_1.cs",
+      "md5": [
+        "c49606379917904615c9bd85c2e1e50b"
+      ]
+    },
+    {
+      "name": "fpsunlock.cs",
+      "md5": [
+        "e667c1d6b4123a5c4f9fc3ff368d7f75"
+      ]
+    },
+    {
+      "name": "hudfix.cs",
+      "md5": [
+        "17b2d9b50e9e01da375f3ef17df9ebf0"
+      ]
+    },
+    {
+      "name": "memory-full.cs",
+      "md5": [
+        "4da7d14fd9b81bfdcf63dd0fea989dbe"
+      ]
+    },
+    {
+      "name": "sensitivityfix.cs",
+      "md5": [
+        "b70feb30dfa608d2f7d6bf273641cd5b"
+      ]
     }
   ]
 }
