@@ -13,6 +13,10 @@
       "md5": "*"
     },
     {
+      "name": "gbclientapp.exe",
+      "md5": "*"
+    },
+    {
       "name": "eax.dll",
       "md5": [
         "309d860fc8137e5fe9e7056c33b4b8be",
