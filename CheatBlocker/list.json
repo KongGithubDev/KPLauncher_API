@@ -1,20 +1,8 @@
 {
   "modules": [
     {
-      "name": "gta_sa.exe",
-      "md5": "*"
-    },
-    {
       "name": "hotkeys.asi",
       "md5": "cca2a5f3ad1f7b4cf92592b990e48623"
-    },
-    {
-      "name": "hidden_protected_process.exe",
-      "md5": "*"
-    },
-    {
-      "name": "gbclientapp.exe",
-      "md5": "*"
     },
     {
       "name": "eax.dll",
@@ -594,6 +582,16 @@
       "md5": [
         "6f5c8497defeeed2fd128dee8220c107"
       ]
+    }
+  ],
+  "external_whitelist": [
+    {
+      "name": "gbclientapp.exe",
+      "md5": "*"
+    },
+    {
+      "name": "cpuid_cpu-z.exe",
+      "md5": "*"
     }
   ]
 }
