@@ -1,6 +1,26 @@
 {
   "modules": [
     {
+      "name": "iii.vc.sa.windowedmode.asi",
+      "md5": "5731d39e7c9f1dd86237b07f301749d1"
+    },
+    {
+      "name": "samp_fps_unlock_by_sobfox.asi",
+      "md5": "e3e068d601752bef01fff764492abcc6"
+    },
+    {
+      "name": "cef.asi",
+      "md5": "63644553e3a289f1cba9c399f66c6582"
+    },
+    {
+      "name": "radarrect.asi",
+      "md5": "cfa2d51d5c84e3b34959d1c426c182df"
+    },
+    {
+      "name": "interfaceeditor.asi",
+      "md5": "64655051de55f99dd3c2f6be6d865c62"
+    },
+    {
       "name": "hotkeys.asi",
       "md5": "cca2a5f3ad1f7b4cf92592b990e48623"
     },
