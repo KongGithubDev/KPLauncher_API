@@ -1,3 +1,11 @@
 {
-  "announcements": []
+  "announcements": [
+    {
+      "id": "ann_1777981177415",
+      "type": "warning",
+      "layout": "modal-text",
+      "imageUrl": "https://img2.pic.in.th/CB2.0.4.png",
+      "message": "ปรับปรุงระบบ CheatBlocker หากพบข้อผิดพลาด โปรดติดต่อ Admin เพื่อรายงานข้อผิดพลาดต่อผู้พัฒนา\n[อัปเดตเมื่อ: 5 พฤษภาคม 2569]"
+    }
+  ]
 }
