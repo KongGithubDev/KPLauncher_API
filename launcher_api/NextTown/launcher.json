@@ -2,7 +2,7 @@
   "launcherVer": 1038,
   "launcherName": "NextTown Launcher",
   "registryPath": "HKCU\\Software\\SAMP",
-  "themeColor": "#ffffff",
+  "themeColor": "#2596be",
   "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/download/v1.0.38/NextTownLauncher.exe",
   "launcherLogo": "https://img2.pic.in.th/pic/KongProjectLogo.png",
   "discordUrl": "https://discord.gg/jrAfUwpZzQ",
@@ -49,7 +49,7 @@
   "games": [
     {
       "name": "NextTown",
-      "themeColor": "#ffdd00",
+      "themeColor": "#2596be",
       "startCmd": "samp.exe 168.222.20.87:7777",
       "DataUrl": "http://168.222.20.87/NextTownLauncher_API/data.json",
       "clientVer": 1,
