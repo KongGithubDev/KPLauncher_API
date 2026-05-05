@@ -42,7 +42,7 @@
     "buttons": [
       {
         "label": "Discord",
-        "url": "https://discord.gg/jrAfUwpZzQ"
+        "url": "https://discord.gg/"
       }
     ]
   },
@@ -53,7 +53,7 @@
       "startCmd": "samp.exe 168.222.20.87:7777",
       "DataUrl": "http://168.222.20.87/NextTownLauncher_API/data.json",
       "clientVer": 1,
-      "clientUrl": "https://pub-926310bf9c804b08b14509fc3f41b15a.r2.dev/NextTown.zip",
+      "clientUrl": "http://168.222.20.87/NextTownLauncher_API/NextTown.zip",
       "patchUrls": [],
       "cheatblockerData": "http://168.222.20.87/NextTownLauncher_API/cb.json",
       "removeFilesData": "http://168.222.20.87/NextTownLauncher_API/remove-list.json",
@@ -79,7 +79,7 @@
       "maintenance": false,
       "serverIp": "168.222.20.87",
       "serverPort": 7777,
-      "logo": "https://img2.pic.in.th/pic/logo8c2b042b2aaa6576.png",
+      "logo": "https://img1.pic.in.th/images/Logo1e86eecbf39d00ce.png",
       "banners": [
         {
           "image": "https://img2.pic.in.th/CB-V2.0.3.png",
