@@ -1,37 +1,37 @@
 {
-  "themeName": "Theme Songkran Festival",
-  "themeType": "Songkran Floral Splash",
-  "themeVersion": "1.2",
+  "themeName": "Thai Summer Breeze",
+  "themeType": "Hot Season Calm",
+  "themeVersion": "2.0",
 
-  "themeColor": "#38BDF8",
-  "accentSecondary": "#FB7185",
+  "themeColor": "#0EA5E9",
+  "accentSecondary": "#F59E0B",
 
-  "backgroundOpacity": 0.98,
+  "backgroundOpacity": 0.97,
 
   "overlayUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.html",
-  "overlayOpacity": 0.92,
+  "overlayOpacity": 0.88,
 
-  "blurStrength": 8,
-  "contrastBoost": 1.04,
+  "blurStrength": 6,
+  "contrastBoost": 1.02,
 
   "customStyles": {
-    "--bg-primary": "#0b2740",
-    "--bg-secondary": "#15476b",
-    "--bg-tertiary": "#1d5f87",
+    "--bg-primary": "#082f49",
+    "--bg-secondary": "#0c4a6e",
+    "--bg-tertiary": "#075985",
 
     "--theme-accent": "#38BDF8",
-    "--theme-accent-alt": "#FB7185",
-    "--theme-accent-glow": "rgba(56,189,248,0.22)",
+    "--theme-accent-alt": "#F59E0B",
+    "--theme-accent-glow": "rgba(56,189,248,0.18)",
 
-    "--text-primary": "#F8FCFF",
-    "--text-secondary": "#D5E8F5",
-    "--text-muted": "#93B6CB",
+    "--text-primary": "#F0FAFF",
+    "--text-secondary": "#CDE7F5",
+    "--text-muted": "#8FB3C9",
 
-    "--card-bg": "rgba(255,255,255,0.06)",
-    "--card-border": "rgba(255,255,255,0.10)",
+    "--card-bg": "rgba(255,255,255,0.05)",
+    "--card-border": "rgba(255,255,255,0.08)",
 
-    "--glass-bg": "rgba(11,39,64,0.42)",
-    "--glass-blur": "12px"
+    "--glass-bg": "rgba(8,47,73,0.45)",
+    "--glass-blur": "10px"
   },
 
   "uiTweaks": {
