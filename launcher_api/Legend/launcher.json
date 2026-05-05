@@ -86,9 +86,9 @@
       "logo": "https://img5.pic.in.th/file/secure-sv1/Logo_Legend_New1.png",
       "banners": [
         {
-          "image": "https://img2.pic.in.th/CB-V2.0.3.png",
-          "title": "CheatBlocker V2.0.3",
-          "description": "This update enhances protection against unauthorized cheat injection, improving overall security and game integrity."
+          "image": "https://img2.pic.in.th/CB2.0.4.png",
+          "title": "CheatBlocker V2.0.4",
+          "description": "Major security upgrade — improved cheat detection, more accurate and reliable than ever."
         }
       ],
       "bannersMoreUrl": "http://samp-legend.net/legendlauncher-api/banners.json"
