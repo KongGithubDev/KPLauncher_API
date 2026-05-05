@@ -14,7 +14,6 @@
   "contrastBoost": 1.1,
 
   "customStyles": {
-    /* ปรับพื้นหลังหลักให้เป็นสีน้ำเงินสว่างขึ้น ไม่ดำสนิท */
     "--bg-primary": "#082f49",
     "--bg-secondary": "#0c4a6e",
     "--bg-tertiary": "#075985",
@@ -27,7 +26,6 @@
     "--text-secondary": "#BAE6FD",
     "--text-muted": "#7DD3FC",
 
-    /* ปรับ Card ให้ดูใสและเห็นแสงด้านหลังชัดขึ้น */
     "--card-bg": "rgba(255, 255, 255, 0.1)",
     "--card-border": "rgba(34, 211, 238, 0.3)",
 
