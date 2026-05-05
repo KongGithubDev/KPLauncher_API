@@ -1,16 +1,3 @@
 {
-  "announcements": [
-    {
-      "id": "cleo_security_update_2026",
-      "type": "warning",
-      "layout": "modal-text",
-      "message": "มีการอัปเดตระบบความปลอดภัย CheatBlocker นอก PATCH [วันที่ 28 มีนาคม 2569]\nหากคุณเป็นผู้ดูแลเซิฟเวอร์แล้วพบว่าเกิดข้อผิดพลาด โปรดติดต่อผู้ดูแล Launcher"
-    },
-    {
-      "id": "ann_1774721063269",
-      "type": "warning",
-      "layout": "modal-text",
-      "message": "ใครที่มีปัญหาด้านรันเชอร์ เข้าตัว Launcher แต่ ไปโผล่อีก Launcher อีกเซิฟเวอร์ ให้ถอนการติดตั้งและติดตั้งใหม่ ปัญหาเกิดเมื่อเวลา 00:00 - 01:45\n[อัปเดตเมื่อ: 29 มีนาคม 2569]"
-    }
-  ]
+  "announcements": []
 }
