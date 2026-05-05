@@ -82,9 +82,9 @@
       "logo": "https://img1.pic.in.th/images/Logo1e86eecbf39d00ce.png",
       "banners": [
         {
-          "image": "https://img2.pic.in.th/CB-V2.0.3.png",
-          "title": "CheatBlocker V2.0.3",
-          "description": "This update enhances protection against unauthorized cheat injection, improving overall security and game integrity."
+          "image": "https://img2.pic.in.th/CB2.0.4.png",
+          "title": "CheatBlocker V2.0.4",
+          "description": "Major security upgrade — improved cheat detection, more accurate and reliable than ever."
         }
       ],
       "bannersMoreUrl": "http://168.222.20.87/NextTownLauncher_API/banners.json"
