@@ -1,43 +1,44 @@
 {
-  "themeName": "Thai Summer Breeze",
-  "themeType": "Hot Season Calm",
-  "themeVersion": "2.0",
+  "themeName": "Crystal Neon Flow",
+  "themeType": "High-Tech Gaming",
+  "themeVersion": "3.0",
 
-  "themeColor": "#0EA5E9",
-  "accentSecondary": "#F59E0B",
+  "themeColor": "#22D3EE",
+  "accentSecondary": "#00F2FF",
 
-  "backgroundOpacity": 0.97,
-
+  "backgroundOpacity": 1.0,
   "overlayUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.html",
-  "overlayOpacity": 0.88,
+  "overlayOpacity": 0.95,
 
-  "blurStrength": 6,
-  "contrastBoost": 1.02,
+  "blurStrength": 10,
+  "contrastBoost": 1.1,
 
   "customStyles": {
+    /* ปรับพื้นหลังหลักให้เป็นสีน้ำเงินสว่างขึ้น ไม่ดำสนิท */
     "--bg-primary": "#082f49",
     "--bg-secondary": "#0c4a6e",
     "--bg-tertiary": "#075985",
 
-    "--theme-accent": "#38BDF8",
-    "--theme-accent-alt": "#F59E0B",
-    "--theme-accent-glow": "rgba(56,189,248,0.18)",
+    "--theme-accent": "#22D3EE",
+    "--theme-accent-alt": "#38BDF8",
+    "--theme-accent-glow": "rgba(34, 211, 238, 0.4)",
 
-    "--text-primary": "#F0FAFF",
-    "--text-secondary": "#CDE7F5",
-    "--text-muted": "#8FB3C9",
+    "--text-primary": "#FFFFFF",
+    "--text-secondary": "#BAE6FD",
+    "--text-muted": "#7DD3FC",
 
-    "--card-bg": "rgba(255,255,255,0.05)",
-    "--card-border": "rgba(255,255,255,0.08)",
+    /* ปรับ Card ให้ดูใสและเห็นแสงด้านหลังชัดขึ้น */
+    "--card-bg": "rgba(255, 255, 255, 0.1)",
+    "--card-border": "rgba(34, 211, 238, 0.3)",
 
-    "--glass-bg": "rgba(8,47,73,0.45)",
-    "--glass-blur": "10px"
+    "--glass-bg": "rgba(8, 47, 73, 0.5)",
+    "--glass-blur": "12px"
   },
 
   "uiTweaks": {
     "iconGlow": true,
     "softShadows": true,
     "roundedUI": true,
-    "reduceAnimationWhenLowPower": true
+    "reduceAnimationWhenLowPower": false
   }
 }
