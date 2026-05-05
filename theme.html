@@ -3,19 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Songkran Floral Splash</title>
+<title>Thai Summer Breeze</title>
 
 <style>
 :root{
   --sky1:#7dd3fc;
   --sky2:#38bdf8;
   --sky3:#0ea5e9;
-  --water:#dff6ff;
-  --pink:#fb7185;
-  --yellow:#facc15;
-  --green:#4ade80;
-  --blue:#2563eb;
-  --white:rgba(255,255,255,.9);
 }
 
 *{margin:0;padding:0;box-sizing:border-box}
@@ -27,58 +21,27 @@ html,body{
 body{
   position:relative;
   background:
-    radial-gradient(circle at 20% 15%, rgba(255,255,255,.35), transparent 18%),
-    linear-gradient(180deg, #87dbff 0%, #48bdf5 35%, #1f8ed8 100%);
+    radial-gradient(circle at 80% 20%, rgba(255,255,255,.25), transparent 20%),
+    linear-gradient(180deg, #7dd3fc 0%, #38bdf8 40%, #0ea5e9 70%, #075985 100%);
   font-family:sans-serif;
 }
 
-/* แสงแดด */
 .sun-glow{
   position:fixed;
-  top:-8%;
-  right:-4%;
-  width:260px;
-  height:260px;
+  top:-5%;
+  right:-2%;
+  width:320px;
+  height:320px;
   border-radius:50%;
-  background:radial-gradient(circle, rgba(255,245,200,.85) 0%, rgba(255,220,120,.35) 35%, transparent 70%);
-  filter:blur(10px);
-  opacity:.9;
-  pointer-events:none;
-}
-
-/* ธงงานวัด */
-.bunting{
-  position:fixed;
-  top:0;
-  left:-5%;
-  width:110%;
-  height:90px;
-  pointer-events:none;
+  background:radial-gradient(circle,
+    rgba(255,240,180,.95) 0%,
+    rgba(255,200,80,.45) 40%,
+    rgba(255,180,50,.15) 65%,
+    transparent 75%);
+  filter:blur(14px);
   opacity:.9;
 }
-.bunting svg{
-  width:100%;
-  height:100%;
-}
 
-/* ลายดอกพื้นหลัง */
-.floral-layer{
-  position:fixed;
-  inset:0;
-  opacity:.12;
-  pointer-events:none;
-  background-image:
-    radial-gradient(circle at 20px 20px, rgba(255,255,255,.85) 0 3px, transparent 4px),
-    radial-gradient(circle at 32px 20px, rgba(255,255,255,.85) 0 3px, transparent 4px),
-    radial-gradient(circle at 26px 10px, rgba(255,255,255,.85) 0 3px, transparent 4px),
-    radial-gradient(circle at 26px 30px, rgba(255,255,255,.85) 0 3px, transparent 4px),
-    radial-gradient(circle at 26px 20px, rgba(251,113,133,.95) 0 4px, transparent 5px);
-  background-size:120px 120px;
-  background-position:0 0,0 0,0 0,0 0,0 0;
-  filter:blur(.3px);
-}
-
-/* คลื่นน้ำ */
 .wave-wrap{
   position:absolute;
   inset:0;
@@ -89,22 +52,23 @@ body{
   left:-10%;
   width:120%;
   border-radius:45%;
-  filter:blur(8px);
+  filter:blur(10px);
 }
 .wave1{
   bottom:-8%;
   height:23%;
-  background:radial-gradient(ellipse at center, rgba(255,255,255,.38), rgba(223,246,255,.15) 60%, transparent 72%);
-  opacity:.8;
-  animation:waveMove1 8s ease-in-out infinite;
+  background:radial-gradient(ellipse at center, rgba(255,255,255,.25), transparent 70%);
+  opacity:.4;
+  animation:waveMove1 10s ease-in-out infinite;
 }
 .wave2{
   bottom:-10%;
   height:20%;
-  background:radial-gradient(ellipse at center, rgba(56,189,248,.30), rgba(255,255,255,.08) 60%, transparent 74%);
-  opacity:.65;
-  animation:waveMove2 12s ease-in-out infinite;
+  background:radial-gradient(ellipse at center, rgba(56,189,248,.20), transparent 70%);
+  opacity:.25;
+  animation:waveMove2 14s ease-in-out infinite;
 }
+
 @keyframes waveMove1{
   0%,100%{transform:translateX(0)}
   50%{transform:translateX(3%) translateY(-6px)}
@@ -114,84 +78,32 @@ body{
   50%{transform:translateX(-3%) translateY(-10px)}
 }
 
-/* สาดน้ำ */
-.splash-layer{
+.heat-layer{
   position:fixed;
   inset:0;
   pointer-events:none;
 }
-.drop{
+.heat-particle{
   position:absolute;
-  width:4px;
-  height:16px;
-  border-radius:999px;
-  background:linear-gradient(to bottom, rgba(255,255,255,.95), rgba(180,235,255,.18));
-  opacity:0;
-  transform:rotate(18deg);
-  animation:splashRise linear infinite;
-}
-.dot{
-  position:absolute;
-  width:6px;
-  height:6px;
+  width:3px;
+  height:3px;
+  background:rgba(255,255,255,.5);
   border-radius:50%;
-  background:rgba(255,255,255,.85);
-  box-shadow:0 0 10px rgba(255,255,255,.3);
   opacity:0;
-  animation:dotRise linear infinite;
+  animation:heatFloat linear infinite;
 }
-@keyframes splashRise{
+@keyframes heatFloat{
   0%{
-    transform:translateY(0) translateX(0) rotate(18deg) scale(.9);
+    transform:translateY(0) scale(.8);
     opacity:0;
   }
-  12%{opacity:.7}
+  20%{opacity:.5}
   100%{
-    transform:translateY(-115vh) translateX(40px) rotate(18deg) scale(1.1);
-    opacity:0;
-  }
-}
-@keyframes dotRise{
-  0%{
-    transform:translateY(0) translateX(0) scale(.7);
-    opacity:0;
-  }
-  15%{opacity:.65}
-  100%{
-    transform:translateY(-105vh) translateX(25px) scale(1.2);
+    transform:translateY(-120vh) scale(1.2);
     opacity:0;
   }
 }
 
-/* ดอกไม้ตกช้า ๆ */
-.petals{
-  position:fixed;
-  inset:0;
-  pointer-events:none;
-}
-.petal{
-  position:absolute;
-  width:12px;
-  height:12px;
-  background:radial-gradient(circle at 30% 30%, #ffd1dc 0%, #fb7185 70%, transparent 72%);
-  border-radius:60% 40% 70% 30%;
-  opacity:0;
-  filter:blur(.2px);
-  animation:petalFall linear infinite;
-}
-@keyframes petalFall{
-  0%{
-    transform:translateY(-10vh) translateX(0) rotate(0deg);
-    opacity:0;
-  }
-  10%{opacity:.65}
-  100%{
-    transform:translateY(110vh) translateX(40px) rotate(240deg);
-    opacity:0;
-  }
-}
-
-/* แสงวิ้ง */
 .shine{
   position:fixed;
   inset:0;
@@ -199,90 +111,61 @@ body{
   background:
     linear-gradient(115deg,
       transparent 0%,
-      rgba(255,255,255,.03) 42%,
-      rgba(255,255,255,.08) 50%,
-      transparent 58%);
+      rgba(255,255,255,.04) 45%,
+      rgba(255,255,255,.10) 50%,
+      transparent 55%);
   transform:translateX(-100%);
-  animation:shineMove 11s linear infinite;
+  animation:shineMove 12s linear infinite;
   mix-blend-mode:screen;
 }
 @keyframes shineMove{
   from{transform:translateX(-100%)}
   to{transform:translateX(100%)}
 }
+
+.flash{
+  position:fixed;
+  inset:0;
+  background:white;
+  opacity:0;
+  pointer-events:none;
+  animation:flashAnim 12s infinite;
+}
+@keyframes flashAnim{
+  0%,92%,100%{opacity:0}
+  93%{opacity:.15}
+  94%{opacity:0}
+  95%{opacity:.08}
+  96%{opacity:0}
+}
 </style>
 </head>
+
 <body>
 
 <div class="sun-glow"></div>
-
-<div class="bunting">
-  <svg viewBox="0 0 1200 100" preserveAspectRatio="none">
-    <path d="M0,20 C180,80 320,0 520,30 C720,60 920,10 1200,35" stroke="rgba(255,255,255,.55)" stroke-width="3" fill="none"/>
-    <polygon points="70,25 100,25 85,60" fill="#fb7185"/>
-    <polygon points="145,30 175,30 160,68" fill="#facc15"/>
-    <polygon points="220,24 250,24 235,60" fill="#4ade80"/>
-    <polygon points="295,32 325,32 310,69" fill="#60a5fa"/>
-    <polygon points="370,28 400,28 385,63" fill="#fb7185"/>
-    <polygon points="445,36 475,36 460,72" fill="#facc15"/>
-    <polygon points="520,28 550,28 535,64" fill="#4ade80"/>
-    <polygon points="595,34 625,34 610,70" fill="#60a5fa"/>
-    <polygon points="670,26 700,26 685,62" fill="#fb7185"/>
-    <polygon points="745,35 775,35 760,73" fill="#facc15"/>
-    <polygon points="820,27 850,27 835,64" fill="#4ade80"/>
-    <polygon points="895,33 925,33 910,69" fill="#60a5fa"/>
-    <polygon points="970,25 1000,25 985,60" fill="#fb7185"/>
-    <polygon points="1045,31 1075,31 1060,68" fill="#facc15"/>
-  </svg>
-</div>
-
-<div class="floral-layer"></div>
 
 <div class="wave-wrap">
   <div class="wave wave1"></div>
   <div class="wave wave2"></div>
 </div>
 
-<div class="splash-layer" id="splash"></div>
-<div class="petals" id="petals"></div>
+<div class="heat-layer" id="heat"></div>
+
 <div class="shine"></div>
+<div class="flash"></div>
 
 <script>
-const splash = document.getElementById("splash");
-const petals = document.getElementById("petals");
+const heat = document.getElementById("heat");
 
-for(let i=0;i<42;i++){
-  const d = document.createElement("div");
-  d.className = "drop";
-  d.style.left = Math.random()*100 + "%";
-  d.style.bottom = (-20 - Math.random()*40) + "px";
-  d.style.animationDuration = (Math.random()*8 + 8) + "s";
-  d.style.animationDelay = (Math.random()*-18) + "s";
-  d.style.height = (Math.random()*10 + 10) + "px";
-  splash.appendChild(d);
-}
-
-for(let i=0;i<28;i++){
-  const x = document.createElement("div");
-  x.className = "dot";
-  const size = Math.random()*4 + 3;
-  x.style.width = size + "px";
-  x.style.height = size + "px";
-  x.style.left = Math.random()*100 + "%";
-  x.style.bottom = (-10 - Math.random()*50) + "px";
-  x.style.animationDuration = (Math.random()*10 + 9) + "s";
-  x.style.animationDelay = (Math.random()*-15) + "s";
-  splash.appendChild(x);
-}
-
-for(let i=0;i<14;i++){
-  const p = document.createElement("div");
-  p.className = "petal";
-  p.style.left = Math.random()*100 + "%";
-  p.style.top = (-10 - Math.random()*40) + "px";
-  p.style.animationDuration = (Math.random()*12 + 16) + "s";
-  p.style.animationDelay = (Math.random()*-20) + "s";
-  petals.appendChild(p);
+for(let i=0;i<40;i++){
+  const h = document.createElement("div");
+  h.className = "heat-particle";
+  h.style.left = Math.random()*100 + "%";
+  h.style.bottom = (-20 - Math.random()*40) + "px";
+  h.style.animationDuration = (Math.random()*10 + 10) + "s";
+  h.style.animationDelay = (Math.random()*-20) + "s";
+  heat.appendChild(h);
 }
 </script>
 
