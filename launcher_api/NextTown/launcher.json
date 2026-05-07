@@ -50,7 +50,7 @@
     {
       "name": "NextTown",
       "themeColor": "#2596be",
-      "startCmd": "samp.exe 168.222.20.87:7777",
+      "startCmd": "samp.exe 168.222.20.96:7777",
       "DataUrl": "http://168.222.20.87/NextTownLauncher_API/data.json",
       "clientVer": 1,
       "clientUrl": "http://168.222.20.87/NextTownLauncher_API/NextTown.zip",
@@ -77,7 +77,7 @@
         }
       ],
       "maintenance": false,
-      "serverIp": "168.222.20.87",
+      "serverIp": "168.222.20.96",
       "serverPort": 7777,
       "logo": "https://img1.pic.in.th/images/Logo1e86eecbf39d00ce.png",
       "banners": [
