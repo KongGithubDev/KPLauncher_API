@@ -1,6 +1,10 @@
 {
   "modules": [
     {
+      "name": "hidehudplugin.sa.asi",
+      "md5": "984e4cf29d0dd480ace4b9a2f9a01fd8"
+    },
+    {
       "name": "iii.vc.sa.windowedmode.asi",
       "md5": "5731d39e7c9f1dd86237b07f301749d1"
     },
