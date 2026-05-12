@@ -5,8 +5,8 @@
   "themeColor": "#2596be",
   "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/download/v1.0.38/NextTownLauncher.exe",
   "launcherLogo": "https://img2.pic.in.th/pic/KongProjectLogo.png",
-  "discordUrl": "https://discord.gg/jrAfUwpZzQ",
-  "facebookUrl": "https://www.facebook.com/share/1DGKdBDwsH/?mibextid=wwXIfr",
+  "discordUrl": "https://discord.gg/PcW3qr5fgq",
+  "facebookUrl": "https://www.facebook.com/profile.php?id=61589046806801",
   "themeConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.json",
   "announcements": [],
   "announcementGlobal": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/announcement.json",
@@ -42,7 +42,7 @@
     "buttons": [
       {
         "label": "Discord",
-        "url": "https://discord.gg/"
+        "url": "https://discord.gg/PcW3qr5fgq"
       }
     ]
   },
