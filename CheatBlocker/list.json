@@ -457,9 +457,16 @@
       ]
     },
     {
+      "name": "kpcef.asi",
+      "md5": [
+        "169895c1562ed099553b07070a54878a"
+      ]
+    },
+    {
       "name": "client.dll",
       "md5": [
-        "f47e39606eb0e7ab7ebed9e960a0ec0b"
+        "f47e39606eb0e7ab7ebed9e960a0ec0b",
+		"9add3fba4c3333ee734fb0179b5126bc"
       ]
     },
     {
