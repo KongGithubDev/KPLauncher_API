@@ -286,6 +286,12 @@
         "7bca6c02c326ad80b51c8ba4a3ab7081"
       ]
     },
+	{
+      "name": "angel.dll",
+      "md5": [
+        "6965bd651c0ee786ce615d93f0b1571d"
+      ]
+	},
     {
       "name": "dsound.dll",
       "md5": [
