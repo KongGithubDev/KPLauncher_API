@@ -463,6 +463,10 @@
       ]
     },
 	{
+      "md5": "df438cc21a43d86fb62db67d0c58f313",
+      "name": "angel.asi"
+    },
+	{
       "name": "pawriaclient.asi",
       "md5": [
         "bb8c763faae53847464991c05a4f8a73"
@@ -473,7 +477,8 @@
       "md5": [
         "f47e39606eb0e7ab7ebed9e960a0ec0b",
 		"9add3fba4c3333ee734fb0179b5126bc",
-		"e59dc9a61e1730ec3eb2860d7c455ac7"
+		"e59dc9a61e1730ec3eb2860d7c455ac7",
+		"fba86659d187829781af025f9bed313f"
       ]
     },
     {
