@@ -475,7 +475,13 @@
 	{
       "name": "pawriaclient.asi",
       "md5": [
-        "bb8c763faae53847464991c05a4f8a73"
+        "ed995940a572e63168c0eae876b50bfe"
+      ]
+    },
+	{
+      "name": "exz-gps.asi",
+      "md5": [
+        "2f27c14651859c9bd63c9f26e3ae2882"
       ]
     },
     {
