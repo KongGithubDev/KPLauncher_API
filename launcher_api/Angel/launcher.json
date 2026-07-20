@@ -53,6 +53,7 @@
       "startCmd_COMMENT": "samp.exe 168.222.20.93:7777 -z NHQiJD3Jl88dtOgOVM8m/w==:4dNZAlrtTWuY1NPy7cJ2Rg== -c",
       "startCmd": "samp-injector.exe -z NHQiJD3Jl88dtOgOVM8m/w==:4dNZAlrtTWuY1NPy7cJ2Rg== -c",
       "DataUrl": "http://168.222.20.92/AngelLauncher_API/data.json",
+      "cheatblockerMD5Data": "http://168.222.20.92/AngelLauncher_API/WhitelistMD5.json",
       "clientVer": 1,
       "clientUrl": "http://168.222.20.92/AngelLauncher_API/game_base.zip",
       "patchUrls": [],
