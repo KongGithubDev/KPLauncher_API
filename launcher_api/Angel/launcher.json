@@ -56,6 +56,10 @@
       "clientVer": 1,
       "clientUrl": "http://168.222.20.92/AngelLauncher_API/game_base.zip",
       "patchUrls": [],
+      "verifyFilesData": {
+        "files": ["angel.asi"],
+        "folders": []
+      },
       "cheatblockerData": "http://168.222.20.92/AngelLauncher_API/cb.json",
       "removeFilesData": "http://168.222.20.92/AngelLauncher_API/remove-list.json",
       "enbBaseUrl": "http://168.222.20.92/AngelLauncher_API/enb/",
