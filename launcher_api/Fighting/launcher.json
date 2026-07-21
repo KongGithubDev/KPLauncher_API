@@ -1,0 +1,93 @@
+{
+  "launcherVer": 1041,
+  "launcherName": "Fighting Launcher",
+  "registryPath": "HKCU\\Software\\SAMP",
+  "themeColor": "#9dd640",
+  "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/download/v1.0.41/FightingLauncher.exe",
+  "launcherLogo": "https://img2.pic.in.th/pic/KongProjectLogo.png",
+  "discordUrl": "https://discord.gg/",
+  "facebookUrl": "https://www.facebook.com/",
+  "themeConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.json",
+  "announcements": [],
+  "announcementGlobal": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/announcement.json",
+  "cheatblockerConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/CheatBlocker/list.json",
+  "languages": [
+    {
+      "language": "en",
+      "displayName": "English",
+      "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/en.json"
+    },
+    {
+      "language": "th",
+      "displayName": "ไทย",
+      "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/th.json"
+    }
+  ],
+  "discord": {
+    "clientId": "1424788002323824640",
+    "details": "Main Menu",
+    "state": "Fighting Launcher",
+    "largeImageKey": "main",
+    "largeImageText": "Fighting Server",
+    "smallImageKey": "kongproject",
+    "smallImageText": "KongProject",
+    "detailsPlaying": "Playing on {gameName}",
+    "statePlaying": "Character: {playerName}",
+    "largeImageTextPlaying": "In Game",
+    "detailsDownloading": "Updating {gameName}",
+    "stateDownloading": "Downloading files...",
+    "largeImageTextDownloading": "Patching...",
+    "detailsMenus": "In the menus",
+    "stateMenus": "Launcher Main Screen",
+    "buttons": [
+      {
+        "label": "Discord",
+        "url": "https://discord.gg/"
+      }
+    ]
+  },
+  "games": [
+    {
+      "name": "Fighting City",
+      "themeColor": "#9dd640",
+      "startCmd": "samp.exe 168.222.20.94:7777",
+      "DataUrl": "http://168.222.20.98/FightingLauncher_API/data.json",
+      "clientVer": 1,
+      "clientUrl": "http://168.222.20.98/FightingLauncher_API/game_base.zip",
+      "patchUrls": [],
+      "cheatblockerData": "http://168.222.20.98/FightingLauncher_API/cb.json",
+      "removeFilesData": "http://168.222.20.98/FightingLauncher_API/remove-list.json",
+      "enbBaseUrl": "http://168.222.20.98/FightingLauncher_API/enb/",
+      "enbFiles": [
+        {
+          "fileName": "enbeffect.fx",
+          "fileMD5": "860BCF2574BD01199CF0DFE2898A5F24"
+        },
+        {
+          "fileName": "enblocal.ini",
+          "fileMD5": "41C3E9E2F20DC273A2F0EE06A7BC45DD"
+        },
+        {
+          "fileName": "enbseries.asi",
+          "fileMD5": "06950EB8E1A2F04423F1A8E6AE175CE6"
+        },
+        {
+          "fileName": "enbseries.ini",
+          "fileMD5": "ABF64C4247A33023F3DBE3C76177797A"
+        }
+      ],
+      "maintenance": false,
+      "serverIp": "168.222.20.94",
+      "serverPort": 7777,
+      "logo": "https://img1.pic.in.th/images/Fighting.png",
+      "banners": [
+        {
+          "image": "https://img2.pic.in.th/CB2.0.4.png",
+          "title": "CheatBlocker V2.0.4",
+          "description": "Major security upgrade — improved cheat detection, more accurate and reliable than ever."
+        }
+      ],
+      "bannersMoreUrl": "http://168.222.20.98/FightingLauncher_API/banners.json"
+    }
+  ]
+}
