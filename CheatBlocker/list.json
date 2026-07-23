@@ -472,12 +472,7 @@
 	{
       "name": "angel.asi",
 	  "md5": [
-		"df438cc21a43d86fb62db67d0c58f313",
-		"f2981ef7e9165558e48373d9ca9e7691",
-		"f40aa4f432d231942f30fe7605d3262d",
-		"83404669c81fea2134a4a111b88da191",
-		"b4ba065f0752e25e1fa690e10bc0b503",
-		"34d7a5ad8a7f853ab890704976c0bd42"
+		"*"
       ]
     },
 	{
@@ -501,12 +496,7 @@
     {
       "name": "client.dll",
       "md5": [
-        "f47e39606eb0e7ab7ebed9e960a0ec0b",
-		"9add3fba4c3333ee734fb0179b5126bc",
-		"e59dc9a61e1730ec3eb2860d7c455ac7",
-		"fba86659d187829781af025f9bed313f",
-		"e43f7a14240e1d22c11a0194418bda26",
-		"747f754275eddc050fb68fcd43274967"
+        "*"
       ]
     },
     {
