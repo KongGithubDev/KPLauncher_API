@@ -61,6 +61,7 @@
       "clientUrl": "http://168.222.20.90/PawriaLauncher_API/game_base.zip",
       "patchUrls": [],
       "cheatblockerData": "http://168.222.20.90/PawriaLauncher_API/cb.json",
+      "cheatblockerMD5Data": "http://168.222.20.90/PawriaLauncher_API/WhitelistMD5.json",
       "removeFilesData": "http://168.222.20.90/PawriaLauncher_API/remove-list.json",
       "enbBaseUrl": "http://168.222.20.90/PawriaLauncher_API/enb/",
       "enbFiles": [
