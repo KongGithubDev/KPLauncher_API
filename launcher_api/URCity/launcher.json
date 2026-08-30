@@ -54,6 +54,7 @@
       "DataUrl": "http://168.222.20.228/URCityLauncher_API/data.json",
       "clientVer": 1,
       "clientUrl": "https://pub-926310bf9c804b08b14509fc3f41b15a.r2.dev/URCity.zip",
+      "cheatblockerMD5Data": "http://168.222.20.228/URCityLauncher_API/WhitelistMD5.json",
       "patchUrls": [],
       "cheatblockerData": "http://168.222.20.228/URCityLauncher_API/cb.json",
       "removeFilesData": "http://168.222.20.228/URCityLauncher_API/remove-list.json",
