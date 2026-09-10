@@ -50,14 +50,14 @@
     {
       "name": "Nature Town 2.0",
       "themeColor": "#1320c6",
-      "startCmd": "samp.exe 168.222.20.226:7777",
-      "DataUrl": "http://168.222.20.226/NatureLauncher_API/data.json",
+      "startCmd": "samp.exe 168.222.28.226:7777",
+      "DataUrl": "http://168.222.28.226/NatureLauncher_API/data.json",
       "clientVer": 1,
-      "clientUrl": "http://168.222.20.226/NatureLauncher_API/game_base.zip",
+      "clientUrl": "http://168.222.28.226/NatureLauncher_API/game_base.zip",
       "patchUrls": [],
-      "cheatblockerData": "http://168.222.20.226/NatureLauncher_API/cb.json",
-      "removeFilesData": "http://168.222.20.226/NatureLauncher_API/remove-list.json",
-      "enbBaseUrl": "http://168.222.20.226/NatureLauncher_API/enb/",
+      "cheatblockerData": "http://168.222.28.226/NatureLauncher_API/cb.json",
+      "removeFilesData": "http://168.222.28.226/NatureLauncher_API/remove-list.json",
+      "enbBaseUrl": "http://168.222.28.226/NatureLauncher_API/enb/",
       "enbFiles": [
         {
           "fileName": "enbeffect.fx",
@@ -77,7 +77,7 @@
         }
       ],
       "maintenance": false,
-      "serverIp": "168.222.20.226",
+      "serverIp": "168.222.28.226",
       "serverPort": 7777,
       "logo": "https://img5.pic.in.th/file/secure-sv1/image6322cbf550b816f8.png",
       "banners": [
@@ -87,7 +87,7 @@
           "description": "Major security upgrade — improved cheat detection, more accurate and reliable than ever."
         }
       ],
-      "bannersMoreUrl": "http://168.222.20.226/NatureLauncher_API/banners.json"
+      "bannersMoreUrl": "http://168.222.28.226/NatureLauncher_API/banners.json"
     }
   ]
 }
