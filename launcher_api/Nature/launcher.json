@@ -57,6 +57,7 @@
       "patchUrls": [],
       "cheatblockerData": "http://168.222.28.226/NatureLauncher_API/cb.json",
       "removeFilesData": "http://168.222.28.226/NatureLauncher_API/remove-list.json",
+      "cheatblockerMD5Data": "http://168.222.28.226/NatureLauncher_API/WhitelistMD5.json",
       "enbBaseUrl": "http://168.222.28.226/NatureLauncher_API/enb/",
       "enbFiles": [
         {
