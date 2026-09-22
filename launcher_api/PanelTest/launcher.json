@@ -1,0 +1,21 @@
+{
+  "launcherVer": 10001,
+  "launcherName": "Panel Test",
+  "themeConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.json",
+  "languages": [
+    {
+      "language": "th",
+      "displayName": "ไทย",
+      "dataUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/language/th.json"
+    }
+  ],
+  "games": [
+    {
+      "name": "PanelTest",
+      "DataUrl": "https://example.com/data.json"
+    }
+  ],
+  "keepMe": {
+    "untouchable": true
+  }
+}
