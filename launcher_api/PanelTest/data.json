@@ -1,0 +1,10 @@
+{
+  "patchUrls": [
+    "https://example.com/patch1.zip"
+  ],
+  "videoUrls": [
+    "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  ],
+  "forceReinstall": true,
+  "forceReinstallTimestamp": 1760000000000
+}
