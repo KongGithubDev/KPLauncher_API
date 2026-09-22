@@ -1,0 +1,16 @@
+{
+  "modules": [
+    {
+      "name": "emperor-ac.asi",
+      "md5": ["c1f5c6712547107a536bf293b3a1adbf"]
+    },
+    {
+      "name": "pawriaui.asi",
+      "md5": ["cb63877bc63956880ffbfdef9d6a42ab"]
+    },
+    {
+      "name": "pawrianpcai.ini",
+      "md5": ["c4d13f7fb6688ac1a0e674262e77397e"]
+    }
+  ]
+}
