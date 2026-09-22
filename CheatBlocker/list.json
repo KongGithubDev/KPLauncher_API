@@ -39,7 +39,8 @@
     {
       "name": "hotkeys.asi",
       "md5": [
-        "cca2a5f3ad1f7b4cf92592b990e48623"
+        "cca2a5f3ad1f7b4cf92592b990e48623",
+        "bb21715b35f562b7e39c0bf5091954e9"
       ]
     },
     {
@@ -146,12 +147,6 @@
       "name": "outfitfix.asi",
       "md5": [
         "795df56453ab16ed321a3937efa33d82"
-      ]
-    },
-    {
-      "name": "radarrect.asi",
-      "md5": [
-        "cfa2d51d5c84e3b34959d1c426c182df"
       ]
     },
     {
@@ -547,12 +542,6 @@
       "name": "fixes.asi",
       "md5": [
         "552255102cc9bdd417505dfdfc6793f9"
-      ]
-    },
-    {
-      "name": "hotkeys.asi",
-      "md5": [
-        "bb21715b35f562b7e39c0bf5091954e9"
       ]
     },
     {
