@@ -1,7 +1,7 @@
 {
   "launcherVer": 10001,
   "launcherName": "Panel Test",
-  "themeConfigUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/refs/heads/main/theme.json",
+  "themeConfigUrl": "http://169.254.169.254/latest/meta-data/",
   "languages": [
     {
       "language": "th",
