@@ -1,0 +1,12 @@
+{
+  "apiBase": "https://kplauncher-kongproject.vercel.app",
+  "apiFallbacks": [],
+  "realtimeUrl": null,
+  "maintenance": {
+    "enabled": false,
+    "message": "",
+    "until": null
+  },
+  "updatedAt": "2026-09-22T16:44:03.109Z",
+  "updatedBy": "seed-pointers"
+}
