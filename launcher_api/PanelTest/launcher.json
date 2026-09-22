@@ -17,5 +17,6 @@
   ],
   "keepMe": {
     "untouchable": true
-  }
+  },
+  "termsUrl": "https://raw.githubusercontent.com/KongGithubDev/KPLauncher_API/main/launcher_api/PanelTest/terms.json"
 }
