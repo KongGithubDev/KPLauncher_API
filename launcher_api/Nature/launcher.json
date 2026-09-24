@@ -1,97 +1,10 @@
 {
   "launcherVer": 10056,
   "launcherName": "NatureTown Launcher",
-  "registryPath": "HKCU\\Software\\SAMP",
-  "themeColor": "#ffffff",
   "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/download/v1.0.55/NatureLauncher.exe",
-  "launcherLogo": "https://img2.pic.in.th/pic/KongProjectLogo.png",
-  "discordUrl": "https://discord.gg/hDrqWn4j25",
-  "facebookUrl": "https://www.facebook.com/share/177VhEyvvd/",
-  "themeConfigUrl": "https://kplauncher-kongproject.vercel.app/api/doc?server=Nature&doc=theme",
-  "announcements": [],
-  "announcementGlobal": "https://kplauncher-kongproject.vercel.app/api/doc?server=Nature&doc=announcement",
-  "cheatblockerConfigUrl": "https://kplauncher-kongproject.vercel.app/api/doc?server=Nature&doc=cheatblocker",
-  "languages": [
-    {
-      "language": "en",
-      "displayName": "English",
-      "dataUrl": "https://kplauncher-kongproject.vercel.app/api/doc?server=Nature&doc=language%3Aen"
-    },
-    {
-      "language": "th",
-      "displayName": "ไทย",
-      "dataUrl": "https://kplauncher-kongproject.vercel.app/api/doc?server=Nature&doc=language%3Ath"
-    }
-  ],
-  "discord": {
-    "clientId": "1463904716982583401",
-    "details": "Main Menu",
-    "state": "NatureTown Launcher",
-    "largeImageKey": "main",
-    "largeImageText": "NatureTown Server",
-    "smallImageKey": "kongproject",
-    "smallImageText": "KongProject",
-    "detailsPlaying": "Playing on {gameName}",
-    "statePlaying": "Character: {playerName}",
-    "largeImageTextPlaying": "In Game",
-    "detailsDownloading": "Updating {gameName}",
-    "stateDownloading": "Downloading files...",
-    "largeImageTextDownloading": "Patching...",
-    "detailsMenus": "In the menus",
-    "stateMenus": "Launcher Main Screen",
-    "buttons": [
-      {
-        "label": "Discord",
-        "url": "https://discord.gg/hDrqWn4j25"
-      }
-    ]
-  },
   "games": [
     {
-      "name": "Nature Town 2.0",
-      "themeColor": "#1320c6",
-      "startCmd": "samp.exe 168.222.28.226:7777",
-      "DataUrl": "https://kplauncher-kongproject.vercel.app/api/doc?server=Nature&doc=data",
-      "clientVer": 1,
-      "clientUrl": "http://168.222.28.226/NatureLauncher_API/game_base.zip",
-      "patchUrls": [],
-      "cheatblockerData": "https://kplauncher-kongproject.vercel.app/api/whitelist?server=Nature",
-      "removeFilesData": "https://kplauncher-kongproject.vercel.app/api/doc?server=Nature&doc=remove-list",
-      "cheatblockerMD5Data": "https://kplauncher-kongproject.vercel.app/api/whitelist?server=Nature",
-      "enbBaseUrl": "http://168.222.28.226/NatureLauncher_API/enb/",
-      "enbFiles": [
-        {
-          "fileName": "enbeffect.fx",
-          "fileMD5": "860BCF2574BD01199CF0DFE2898A5F24"
-        },
-        {
-          "fileName": "enblocal.ini",
-          "fileMD5": "5FBE36BA9B1AC41541E136E2476D9939"
-        },
-        {
-          "fileName": "enbseries.asi",
-          "fileMD5": "06950EB8E1A2F04423F1A8E6AE175CE6"
-        },
-        {
-          "fileName": "enbseries.ini",
-          "fileMD5": "B7E4571AAF381EEC4A4ED9B17098456E"
-        }
-      ],
-      "maintenance": false,
-      "serverIp": "168.222.28.226",
-      "serverPort": 7777,
-      "logo": "https://img5.pic.in.th/file/secure-sv1/image6322cbf550b816f8.png",
-      "banners": [
-        {
-          "image": "https://img2.pic.in.th/CB2.0.4.png",
-          "title": "CheatBlocker V2.0.4",
-          "description": "Major security upgrade — improved cheat detection, more accurate and reliable than ever."
-        }
-      ],
-      "bannersMoreUrl": "https://kplauncher-kongproject.vercel.app/api/doc?server=Nature&doc=banners",
-      "dataUrl": "https://kplauncher-kongproject.vercel.app/api/doc?server=Nature&doc=data",
-      "securityReportUrl": "https://kplauncher-kongproject.vercel.app/api/report?server=Nature"
+      "name": "Nature Town 2.0"
     }
-  ],
-  "termsUrl": "https://kplauncher-kongproject.vercel.app/api/doc?server=Nature&doc=terms"
+  ]
 }
