@@ -1,7 +1,7 @@
 {
-  "launcherVer": 10056,
+  "launcherVer": 19999,
   "launcherName": "NatureTown Launcher",
-  "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/download/v1.0.55/NatureLauncher.exe",
+  "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/latest/download/NatureLauncher.exe",
   "games": [
     {
       "name": "Nature Town 2.0"

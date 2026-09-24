@@ -1,7 +1,7 @@
 {
-  "launcherVer": 10056,
+  "launcherVer": 19999,
   "launcherName": "Career Launcher",
-  "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/download/v1.0.55/CareerLauncher.exe",
+  "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/latest/download/CareerLauncher.exe",
   "games": [
     {
       "name": "Career City"

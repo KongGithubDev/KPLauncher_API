@@ -1,7 +1,7 @@
 {
-  "launcherVer": 10056,
+  "launcherVer": 19999,
   "launcherName": "Pawria Launcher",
-  "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/download/v1.0.55/PawriaLauncher.exe",
+  "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/latest/download/PawriaLauncher.exe",
   "games": [
     {
       "name": "Pawria Town 2.0"

@@ -1,7 +1,7 @@
 {
-  "launcherVer": 10056,
+  "launcherVer": 19999,
   "launcherName": "URCity Launcher",
-  "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/download/v1.0.55/URCityLauncher.exe",
+  "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/latest/download/URCityLauncher.exe",
   "games": [
     {
       "name": "URCity"

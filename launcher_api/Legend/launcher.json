@@ -1,7 +1,7 @@
 {
-  "launcherVer": 10056,
+  "launcherVer": 19999,
   "launcherName": "Legend Launcher",
-  "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/download/v1.0.55/LegendLauncher.exe",
+  "launcherUrl": "https://github.com/KongGithubDev/KPLauncher_API/releases/latest/download/LegendLauncher.exe",
   "games": [
     {
       "name": "Legend Of Roleplay"
